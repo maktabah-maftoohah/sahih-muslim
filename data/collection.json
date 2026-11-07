@@ -2,6 +2,10 @@
   "collection": "sahih-muslim",
   "title": "Maktabah Maftoohah — Sahih Muslim",
   "title_ar": "صحيح مسلم",
-  "seeded": true,
-  "items": []
+  "total_books": 54,
+  "total_hadiths": 7500,
+  "seeded_books": [
+    1
+  ],
+  "active_hadiths": 4
 }

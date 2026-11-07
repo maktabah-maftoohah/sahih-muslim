@@ -1,0 +1,149 @@
+[
+  {
+    "collection_id": "sahih-muslim",
+    "hadith_number": 1,
+    "in_book_number": 1,
+    "book_number": 1,
+    "book_title": {
+      "ar": "كتاب الإيمان",
+      "ms": "Kitab Iman",
+      "en": "Book of Faith"
+    },
+    "chapter_number": 1,
+    "chapter_title": {
+      "ar": "باب بَيَانِ الإِيمَانِ وَالإِسْلاَمِ وَالإِحْسَانِ",
+      "ms": "Bab: Penjelasan Iman, Islam, dan Ihsan",
+      "en": "Chapter: Clarification of Iman, Islam, and Ihsan"
+    },
+    "arabic": "حَدَّثَنِي أَبُو خَيْثَمَةَ زُهَيْرُ بْنُ حَرْبٍ، حَدَّثَنَا وَكِيعٌ، عَنْ كَهْمَسٍ، عَنْ عَبْدِ اللَّهِ بْنِ بُرَيْدَةَ، عَنْ يَحْيَى بْنِ يَعْمَرَ، قَالَ: كَانَ أَوَّلَ مَنْ قَالَ فِي الْقَدَرِ بِالْبَصْرَةِ مَعْبَدٌ الْجُهَنِيُّ، فَانْطَلَقْتُ أَنَا وَحُمَيْدُ بْنُ عَبْدِ الرَّحْمَنِ الْحِمْيَرِيُّ حَاجَّيْنِ أَوْ مُعْتَمِرَيْنِ، فَقُلْنَا: لَوْ لَقِينَا أَحَدًا مِنْ أَصْحَابِ رَسُولِ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ فَسَأَلْنَاهُ عَمَّا يَقُولُ هَؤُلاَءِ فِي الْقَدَرِ، فَوُفِّقَ لَنَا عَبْدُ اللَّهِ بْنُ عُمَرَ بْنِ الْخَطَّابِ... فَقَالَ: حَدَّثَنِي أَبِي عُمَرُ بْنُ الْخَطَّابِ، قَالَ: بَيْنَمَا نَحْنُ عِنْدَ رَسُولِ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ ذَاتَ يَوْمٍ إِذْ طَلَعَ عَلَيْنَا رَجُلٌ شَدِيدُ بَيَاضِ الثِّيَابِ شَدِيدُ سَوَادِ الشَّعَرِ، لاَ يُرَى عَلَيْهِ أَثَرُ السَّفَرِ وَلاَ يَعْرِفُهُ مِنَّا أَحَدٌ، حَتَّى جَلَسَ إِلَى النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ فَأَسْنَدَ رُكْبَتَيْهِ إِلَى رُكْبَتَيْهِ وَوَضَعَ كَفَّيْهِ عَلَى فَخِذَيْهِ وَقَالَ: يَا مُحَمَّدُ، أَخْبِرْنِي عَنِ الإِسْلاَمِ...",
+    "sanad_text": "حَدَّثَنِي أَبُو خَيْثَمَةَ زُهَيْرُ بْنُ حَرْبٍ، حَدَّثَنَا وَكِيعٌ، عَنْ كَهْمَسٍ، عَنْ عَبْدِ اللَّهِ بْنِ بُرَيْدَةَ، عَنْ يَحْيَى بْنِ يَعْمَرَ، عَنْ عَبْدِ اللَّهِ بْنِ عُمَرَ، عَنْ عُمَرَ بْنِ الْخَطَّابِ قَالَ:",
+    "matn_text": "بَيْنَمَا نَحْنُ عِنْدَ رَسُولِ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ ذَاتَ يَوْمٍ إِذْ طَلَعَ عَلَيْنَا رَجُلٌ شَدِيدُ بَيَاضِ الثِّيَابِ شَدِيدُ سَوَادِ الشَّعَرِ... قَالَ: يَا مُحَمَّدُ، أَخْبِرْنِي عَنِ الإِسْلاَمِ. فَقَالَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ: «الإِسْلاَمُ أَنْ تَشْهَدَ أَنْ لاَ إِلَهَ إِلاَّ اللَّهُ وَأَنَّ مُحَمَّدًا رَسُولُ اللَّهِ، وَتُقِيمَ الصَّلاَةَ، وَتُؤْتِيَ الزَّكَاةَ، وَتَصُومَ رَمَضَانَ، وَتَحُجَّ الْبَيْتَ إِنِ اسْتَطَعْتَ إِلَيْهِ سَبِيلًا»... قَالَ: فَأَخْبِرْنِي عَنِ الإِحْسَانِ. قَالَ: «أَنْ تَعْبُدَ اللَّهَ كَأَنَّكَ تَرَاهُ فَإِنْ لَمْ تَكُنْ تَرَاهُ فَإِنَّهُ يَرَاكَ»...",
+    "gradings": [
+      {
+        "scholar": "Imam Muslim",
+        "grade": "Sahih",
+        "grade_ar": "صحيح"
+      }
+    ],
+    "translations": {
+      "ms": "Hadis Jibril yang masyhur: Umar ibn al-Khattab r.a. meriwayatkan: 'Sedang kami duduk bersama Rasulullah ﷺ pada suatu hari, tiba-tiba muncul seorang lelaki yang berpakaian sangat putih dan berambut sangat hitam. Tidak kelihatan padanya tanda-tanda perjalanan jauh dan tiada seorang pun daripada kami yang mengenalinya... Beliau bertanya tentang Islam, Iman, Ihsan, dan tanda-tanda Kiamat. Kemudian Rasulullah ﷺ bersabda: Wahai Umar, tahukah engkau siapakah penyoal itu? Itu adalah Jibril yang datang mengajarkan kepada kamu agama kamu.'",
+      "en": "The famous Hadith of Gabriel narrated by 'Umar bin Al-Khattab: 'While we were sitting with the Messenger of Allah ﷺ one day, there appeared before us a man dressed in extremely white clothes and with very black hair. No traces of journey were seen upon him and none of us knew him... He asked about Islam, Iman, Ihsan, and the Hour. The Messenger of Allah said: O 'Umar, do you know who the questioner was? It was Gabriel who came to teach you your religion.'"
+    },
+    "tags": [
+      "hadis-jibril",
+      "rukun-islam",
+      "rukun-iman",
+      "ihsan",
+      "teras-akidah"
+    ]
+  },
+  {
+    "collection_id": "sahih-muslim",
+    "hadith_number": 3,
+    "in_book_number": 3,
+    "book_number": 1,
+    "book_title": {
+      "ar": "كتاب الإيمان",
+      "ms": "Kitab Iman",
+      "en": "Book of Faith"
+    },
+    "chapter_number": 2,
+    "chapter_title": {
+      "ar": "باب بَيَانِ الإِيمَانِ الَّذِي يَدْخُلُ بِهِ الْجَنَّةَ",
+      "ms": "Bab: Iman yang Membawa ke Syurga",
+      "en": "Chapter: Faith Leading to Paradise"
+    },
+    "arabic": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا أَبُو خَالِدٍ الأَحْمَرُ، عَنْ أَبِي مَالِكٍ الأَشْجَعِيِّ، عَنْ سَعْدِ بْنِ عُبَيْدَةَ، عَنِ ابْنِ عُمَرَ، عَنِ النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ قَالَ: «بُنِيَ الإِسْلاَمُ عَلَى خَمْسَةٍ: عَلَى أَنْ يُوَحَّدَ اللَّهُ، وَإِقَامِ الصَّلاَةِ، وَإِيتَاءِ الزَّكَاةِ، وَصِيَامِ رَمَضَانَ، وَالْحَجِّ».",
+    "sanad_text": "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا أَبُو خَالِدٍ الأَحْمَرُ، عَنْ أَبِي مَالِكٍ الأَشْجَعِيِّ، عَنْ سَعْدِ بْنِ عُبَيْدَةَ، عَنِ ابْنِ عُمَرَ، عَنِ النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ قَالَ:",
+    "matn_text": "«بُنِيَ الإِسْلاَمُ عَلَى خَمْسَةٍ: عَلَى أَنْ يُوَحَّدَ اللَّهُ، وَإِقَامِ الصَّلاَةِ، وَإِيتَاءِ الزَّكَاةِ، وَصِيَامِ رَمَضَانَ، وَالْحَجِّ».",
+    "gradings": [
+      {
+        "scholar": "Imam Muslim",
+        "grade": "Sahih",
+        "grade_ar": "صحيح"
+      }
+    ],
+    "translations": {
+      "ms": "Daripada Ibnu Umar r.a., daripada Nabi ﷺ bersabda: 'Islam dibina di atas lima perkara: mentauhidkan Allah, mendirikan solat, menunaikan zakat, berpuasa pada bulan Ramadan, dan menunaikan haji.'",
+      "en": "Narrated Ibn 'Umar that the Prophet said: 'Islam is built on five pillars: to profess the Oneness of Allah, establish the prayers, pay Zakat, fast during Ramadan, and perform Hajj.'"
+    },
+    "tags": [
+      "rukun-islam",
+      "tauhid",
+      "ibadah"
+    ]
+  },
+  {
+    "collection_id": "sahih-muslim",
+    "hadith_number": 4,
+    "in_book_number": 4,
+    "book_number": 1,
+    "book_title": {
+      "ar": "كتاب الإيمان",
+      "ms": "Kitab Iman",
+      "en": "Book of Faith"
+    },
+    "chapter_number": 3,
+    "chapter_title": {
+      "ar": "باب شُعَبِ الإِيمَانِ",
+      "ms": "Bab: Cabang-Cabang Iman",
+      "en": "Chapter: The Branches of Faith"
+    },
+    "arabic": "حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، حَدَّثَنَا لَيْثٌ، عَنْ يَزِيدَ بْنِ أَبِي حَبِيبٍ، عَنْ أَبِي الْخَيْرِ، عَنْ عَبْدِ اللَّهِ بْنِ عَمْرٍو، أَنَّ رَجُلًا سَأَلَ رَسُولَ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ: أَيُّ الإِسْلاَمِ خَيْرٌ؟ قَالَ: «تُطْعِمُ الطَّعَامَ، وَتَقْرَأُ السَّلاَمَ عَلَى مَنْ عَرَفْتَ وَمَنْ لَمْ تَعْرِفْ».",
+    "sanad_text": "حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، حَدَّثَنَا لَيْثٌ، عَنْ يَزِيدَ بْنِ أَبِي حَبِيبٍ، عَنْ أَبِي الْخَيْرِ، عَنْ عَبْدِ اللَّهِ بْنِ عَمْرٍو:",
+    "matn_text": "أَنَّ رَجُلًا سَأَلَ رَسُولَ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ: أَيُّ الإِسْلاَمِ خَيْرٌ؟ قَالَ: «تُطْعِمُ الطَّعَامَ، وَتَقْرَأُ السَّلاَمَ عَلَى مَنْ عَرَفْتَ وَمَنْ لَمْ تَعْرِفْ».",
+    "gradings": [
+      {
+        "scholar": "Imam Muslim",
+        "grade": "Sahih",
+        "grade_ar": "صحيح"
+      }
+    ],
+    "translations": {
+      "ms": "Daripada Abdullah ibn 'Amr bahawa seorang lelaki bertanya kepada Rasulullah ﷺ: 'Amalan Islam yang manakah paling baik?' Baginda bersabda: 'Engkau memberi makan, dan mengucapkan salam kepada orang yang engkau kenal dan yang tidak engkau kenal.'",
+      "en": "Narrated 'Abdullah bin 'Amr: A man asked the Messenger of Allah ﷺ: 'Which aspect of Islam is best?' He replied: 'To feed people and to extend greetings of peace to those you know and those you do not know.'"
+    },
+    "tags": [
+      "memberi-makan",
+      "salam",
+      "kebajikan"
+    ]
+  },
+  {
+    "collection_id": "sahih-muslim",
+    "hadith_number": 5,
+    "in_book_number": 5,
+    "book_number": 1,
+    "book_title": {
+      "ar": "كتاب الإيمان",
+      "ms": "Kitab Iman",
+      "en": "Book of Faith"
+    },
+    "chapter_number": 4,
+    "chapter_title": {
+      "ar": "باب بَيَانِ تَفَاضُلِ الإِسْلاَمِ وَأَيِّ أُمُورِهِ أَفْضَلُ",
+      "ms": "Bab: Keutamaan Islam",
+      "en": "Chapter: The Excellence of Islam"
+    },
+    "arabic": "حَدَّثَنَا سَعِيدُ بْنُ عَمْرٍو الأَشْعَثِيُّ، وَأَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، قَالاَ: حَدَّثَنَا سُفْيَانُ بْنُ عُيَيْنَةَ، عَنْ سُهَيْلِ بْنِ أَبِي صَالِحٍ، عَنْ أَبِيهِ، عَنْ أَبِي هُرَيْرَةَ، عَنِ النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ قَالَ: «الإِيمَانُ بِضْعٌ وَسَبْعُونَ أَوْ بِضْعٌ وَسِتُّونَ شُعْبَةً، فَأَفْضَلُهَا قَوْلُ: لاَ إِلَهَ إِلاَّ اللَّهُ، وَأَدْنَاهَا إِمَاطَةُ الأَذَى عَنِ الطَّرِيقِ، وَالْحَيَاءُ شُعْبَةٌ مِنَ الإِيمَانِ».",
+    "sanad_text": "حَدَّثَنَا سَعِيدُ بْنُ عَمْرٍو، وَأَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا سُفْيَانُ، عَنْ سُهَيْلٍ، عَنْ أَبِيهِ، عَنْ أَبِي هُرَيْرَةَ، عَنِ النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ قَالَ:",
+    "matn_text": "«الإِيمَانُ بِضْعٌ وَسَبْعُونَ أَوْ بِضْعٌ وَسِتُّونَ شُعْبَةً، فَأَفْضَلُهَا قَوْلُ: لاَ إِلَهَ إِلاَّ اللَّهُ، وَأَدْنَاهَا إِمَاطَةُ الأَذَى عَنِ الطَّرِيقِ، وَالْحَيَاءُ شُعْبَةٌ مِنَ الإِيمَانِ».",
+    "gradings": [
+      {
+        "scholar": "Imam Muslim",
+        "grade": "Sahih",
+        "grade_ar": "صحيح"
+      }
+    ],
+    "translations": {
+      "ms": "Daripada Abu Hurairah r.a., daripada Nabi ﷺ bersabda: 'Iman itu mempunyai tujuh puluh lebih (atau enam puluh lebih) cabang. Yang paling utama ialah ucapan La ilaha illallah, dan yang paling rendah ialah menyingkirkan duri/gangguan dari jalanan, dan sifat malu itu adalah satu cabang daripada iman.'",
+      "en": "Narrated Abu Huraira: The Prophet ﷺ said: 'Faith has over seventy branches, the best of which is the declaration that there is no god but Allah, and the lowest of which is the removal of harm from the path, and modesty is a branch of faith.'"
+    },
+    "tags": [
+      "cabang-iman",
+      "tauhid",
+      "kebersihan",
+      "malu"
+    ]
+  }
+]
