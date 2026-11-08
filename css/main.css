@@ -587,3 +587,94 @@ body {
   color: var(--text-muted);
   background: var(--bg-card);
 }
+
+
+/* ==========================================================================
+   Narrator Reliability Badges & Sanad Chain Display (Rijal al-Hadith Integration)
+   ========================================================================== */
+.hadith-isnad-bar {
+  margin: 1rem 0 0.75rem;
+  padding: 0.75rem 1rem;
+  background: var(--bg-elevated);
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border);
+}
+
+.isnad-label {
+  display: block;
+  font-weight: 700;
+  color: var(--text-muted);
+  font-size: 0.75rem;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.isnad-tokens {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.45rem;
+}
+
+.sanad-arrow {
+  color: var(--text-muted);
+  font-weight: bold;
+  font-size: 0.9rem;
+  user-select: none;
+}
+
+.rawi-token {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.2rem 0.6rem;
+  border-radius: 9999px;
+  text-decoration: none;
+  font-size: 0.8rem;
+  font-weight: 600;
+  line-height: 1.2;
+  transition: transform 0.15s ease, filter 0.15s ease;
+}
+
+.rawi-token:hover {
+  filter: brightness(0.92);
+  transform: translateY(-1px);
+}
+
+.rawi-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.rawi-token.tier-0 { background: rgba(2, 132, 199, 0.12); color: #0284c7; border: 1px solid rgba(2, 132, 199, 0.3); }
+.rawi-token.tier-0 .rawi-dot { background-color: #0284c7; }
+
+.rawi-token.tier-1 { background: rgba(21, 128, 61, 0.12); color: #15803d; border: 1px solid rgba(21, 128, 61, 0.3); }
+.rawi-token.tier-1 .rawi-dot { background-color: #15803d; }
+
+.rawi-token.tier-2 { background: rgba(5, 150, 105, 0.12); color: #059669; border: 1px solid rgba(5, 150, 105, 0.3); }
+.rawi-token.tier-2 .rawi-dot { background-color: #059669; }
+
+.rawi-token.tier-3 { background: rgba(217, 119, 6, 0.12); color: #d97706; border: 1px solid rgba(217, 119, 6, 0.3); }
+.rawi-token.tier-3 .rawi-dot { background-color: #d97706; }
+
+.rawi-token.tier-4 { background: rgba(100, 116, 139, 0.12); color: #64748b; border: 1px solid rgba(100, 116, 139, 0.3); }
+.rawi-token.tier-4 .rawi-dot { background-color: #64748b; }
+
+.rawi-token.tier-5 { background: rgba(234, 88, 12, 0.12); color: #ea580c; border: 1px solid rgba(234, 88, 12, 0.3); }
+.rawi-token.tier-5 .rawi-dot { background-color: #ea580c; }
+
+.rawi-token.tier-6 { background: rgba(220, 38, 38, 0.12); color: #dc2626; border: 1px solid rgba(220, 38, 38, 0.3); }
+.rawi-token.tier-6 .rawi-dot { background-color: #dc2626; }
+
+[data-theme="dark"] .rawi-token.tier-0 { background: rgba(56, 189, 248, 0.15); color: #38bdf8; border-color: rgba(56, 189, 248, 0.4); }
+[data-theme="dark"] .rawi-token.tier-0 .rawi-dot { background-color: #38bdf8; }
+
+[data-theme="dark"] .rawi-token.tier-1 { background: rgba(74, 222, 128, 0.15); color: #4ade80; border-color: rgba(74, 222, 128, 0.4); }
+[data-theme="dark"] .rawi-token.tier-1 .rawi-dot { background-color: #4ade80; }
+
+[data-theme="dark"] .rawi-token.tier-2 { background: rgba(52, 211, 153, 0.15); color: #34d399; border-color: rgba(52, 211, 153, 0.4); }
+[data-theme="dark"] .rawi-token.tier-2 .rawi-dot { background-color: #34d399; }

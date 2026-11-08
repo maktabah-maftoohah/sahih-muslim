@@ -388,6 +388,24 @@ class MuslimReader {
       return '';
     }).join('');
 
+    const isnadHtml = hadith.sanad && hadith.sanad.length > 0 ? `
+      <div class="hadith-isnad-bar">
+        <span class="isnad-label">${this.currentLang === 'ms' ? 'Rangkaian Sanad Perawi (Jarh wa Ta\'dil):' : 'Chain of Narrators (Jarh wa Ta\'dil):'}</span>
+        <div class="isnad-tokens">
+          ${hadith.sanad.map((r, idx) => `
+            <a href="${r.profile_url || `https://maktabah-maftoohah.github.io/rijal-al-hadith/rawi/${r.narrator_id}/`}?lang=${this.currentLang}&ref=sahih-muslim:${hadith.hadith_number}"
+               class="rawi-token tier-${r.reliability_level !== undefined ? r.reliability_level : 1}"
+               target="_blank" rel="noopener"
+               title="${r.narrator_name_ms || r.narrator_name_ar} (Klik untuk profil lengkap)">
+              <span class="rawi-dot tier-${r.reliability_level !== undefined ? r.reliability_level : 1}"></span>
+              <span>${this.currentLang === 'ar' ? r.narrator_name_ar : (r.narrator_name_ms || r.narrator_name_ar)}</span>
+            </a>
+            ${idx < hadith.sanad.length - 1 ? '<span class="sanad-arrow">←</span>' : ''}
+          `).join('')}
+        </div>
+      </div>
+    ` : '';
+
     return `
       <article class="hadith-card" id="hadith-${hadith.hadith_number}">
         <div class="hadith-meta-bar">
@@ -411,6 +429,8 @@ class MuslimReader {
           ${hadith.sanad_text ? `<span class="arabic-sanad">${hadith.sanad_text} </span>` : ''}
           <span class="arabic-matn">${hadith.matn_text || hadith.arabic}</span>
         </div>
+
+        ${isnadHtml}
 
         <div class="hadith-translation">
           ${formattedTrans}
