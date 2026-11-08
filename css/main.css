@@ -509,28 +509,73 @@ body {
 }
 
 .doc-card {
-  background: var(--bg-elevated);
+  background: var(--bg-primary);
   border: 1px solid var(--border);
   border-radius: var(--radius-md);
-  padding: 1rem;
+  padding: 1.15rem 1.35rem;
   margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+}
+
+.doc-badge {
+  display: inline-block;
+  align-self: flex-start;
+  font-size: 0.75rem;
+  font-weight: 700;
+  background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+  color: #ffffff;
+  padding: 0.2rem 0.55rem;
+  border-radius: var(--radius-sm);
+  margin-bottom: 0.25rem;
+}
+
+.doc-card.external .doc-badge {
+  background: linear-gradient(135deg, var(--accent), #b45309);
+}
+
+.doc-card h4 {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin: 0;
+}
+
+.doc-card p {
+  font-size: 0.875rem;
+  color: var(--text-muted);
+  line-height: 1.5;
+  margin: 0;
 }
 
 .btn-download {
-  display: inline-block;
-  margin-top: 0.75rem;
-  padding: 0.5rem 1rem;
-  border-radius: var(--radius-md);
+  margin-top: 0.5rem;
+  align-self: flex-start;
   background: var(--primary);
   color: #ffffff;
   text-decoration: none;
-  font-weight: 600;
+  padding: 0.5rem 0.95rem;
+  border-radius: var(--radius-sm);
   font-size: 0.875rem;
-  transition: background var(--transition-fast);
+  font-weight: 600;
+  transition: all var(--transition-fast);
 }
 
 .btn-download:hover {
   background: var(--primary-hover);
+}
+
+.btn-download.secondary {
+  background: transparent;
+  border: 1px solid var(--border);
+  color: var(--text-primary);
+}
+
+.btn-download.secondary:hover {
+  background: var(--bg-hover);
+  border-color: var(--primary);
+  color: var(--primary);
 }
 
 /* App Footer */

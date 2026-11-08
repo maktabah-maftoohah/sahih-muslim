@@ -30,6 +30,13 @@ def test_project():
     assert (root / "data" / "books.json").exists(), "books.json missing"
     assert (root / "data" / "collection.json").exists(), "collection.json missing"
     assert (root / "data" / "editions" / "manifest.json").exists(), "editions/manifest.json missing"
+    assert (root / "data" / "scanned_editions.json").exists(), "scanned_editions.json missing"
+
+    # Documentation & Primary Scans Registry
+    assert (root / "docs" / "SCANNED_EDITIONS.md").exists(), "SCANNED_EDITIONS.md missing"
+    assert (root / "docs" / "index.html").exists(), "docs/index.html missing"
+    assert (root / "documents" / "sahih-muslim.epub").exists(), "sahih-muslim.epub missing"
+    assert (root / "documents" / "muslim_taseel_01.pdf").exists(), "muslim_taseel_01.pdf missing"
 
     with open(root / "data" / "books.json", "r", encoding="utf-8") as f:
         books = json.load(f)

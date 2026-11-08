@@ -1,0 +1,972 @@
+<!DOCTYPE html>
+<html lang="ms" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Naskhah Cetakan Muktabar &amp; Dokumen Digital — Sahih Muslim</title>
+
+  <!-- Open Graph & Twitter Social Card Meta Tags -->
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Maktabah Maftoohah — Sahih Muslim">
+  <meta property="og:title" content="Naskhah Cetakan Muktabar &amp; Dokumen Digital — Sahih Muslim">
+  <meta property="og:description" content="Arkib digital dan panduan muat turun naskhah cetakan primer Sahih Muslim: Dar al-Ta'sil (1435 H), Fu'ad 'Abd al-Baqi, Darussalam, serta e-buku EPUB 3.0 lengkap.">
+  <meta property="og:image" content="https://maktabah-maftoohah.github.io/sahih-muslim/assets/og-banner.jpg">
+  <meta property="og:image:secure_url" content="https://maktabah-maftoohah.github.io/sahih-muslim/assets/og-banner.jpg">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Sahih Muslim — Naskhah Cetakan Muktabar">
+  <meta property="og:url" content="https://maktabah-maftoohah.github.io/sahih-muslim/docs/">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Naskhah Cetakan Muktabar &amp; Dokumen Digital — Sahih Muslim">
+  <meta name="twitter:description" content="Arkib digital dan panduan muat turun naskhah cetakan primer Sahih Muslim: Dar al-Ta'sil (1435 H), Fu'ad 'Abd al-Baqi, Darussalam, serta e-buku EPUB 3.0 lengkap.">
+  <meta name="twitter:image" content="https://maktabah-maftoohah.github.io/sahih-muslim/assets/og-banner.jpg">
+
+  <link rel="icon" type="image/svg+xml" href="../assets/logo-mark.svg">
+  <link rel="stylesheet" href="../css/main.css">
+
+  <style>
+    .docs-page-container {
+      max-width: 1040px;
+      margin: 0 auto;
+      padding: 1.5rem 1.25rem 4rem;
+    }
+
+    /* Top Navigation Bar */
+    .docs-nav-bar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 2rem;
+      padding-bottom: 1rem;
+      border-bottom: 1px solid var(--border);
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    .docs-brand-group {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .docs-brand-logo {
+      width: 38px;
+      height: 38px;
+      border-radius: var(--radius-sm);
+    }
+
+    .docs-brand-title {
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: var(--text-primary);
+    }
+
+    .docs-brand-subtitle {
+      font-size: 0.78rem;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .docs-nav-actions {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .btn-nav-back {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      padding: 0.5rem 1rem;
+      border-radius: var(--radius-sm);
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      color: var(--text-primary);
+      text-decoration: none;
+      font-size: 0.88rem;
+      font-weight: 600;
+      transition: all var(--transition-fast);
+    }
+
+    .btn-nav-back:hover {
+      background: var(--primary-subtle);
+      border-color: var(--primary);
+      color: var(--primary);
+    }
+
+    .btn-theme-toggle {
+      padding: 0.5rem 0.75rem;
+      border-radius: var(--radius-sm);
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      cursor: pointer;
+      font-size: 1rem;
+      transition: all var(--transition-fast);
+      color: var(--text-primary);
+    }
+
+    .btn-theme-toggle:hover {
+      background: var(--primary-subtle);
+      border-color: var(--primary);
+    }
+
+    /* Hero Section */
+    .docs-hero {
+      background: linear-gradient(135deg, rgba(2, 132, 199, 0.15) 0%, rgba(245, 158, 11, 0.08) 100%);
+      border: 1px solid rgba(2, 132, 199, 0.3);
+      border-radius: var(--radius-lg);
+      padding: 2.25rem 2rem;
+      margin-bottom: 2.5rem;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .docs-hero::before {
+      content: "";
+      position: absolute;
+      top: -50px;
+      right: -50px;
+      width: 180px;
+      height: 180px;
+      background: radial-gradient(circle, var(--primary-glow) 0%, transparent 70%);
+      pointer-events: none;
+    }
+
+    .docs-hero-tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      padding: 0.25rem 0.75rem;
+      border-radius: var(--radius-full);
+      background: var(--primary-glow);
+      color: var(--primary-light);
+      font-size: 0.8rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 0.85rem;
+    }
+
+    .docs-hero h1 {
+      font-size: 1.85rem;
+      margin: 0 0 0.5rem 0;
+      color: var(--text-primary);
+      line-height: 1.3;
+    }
+
+    .docs-hero-ar {
+      font-family: var(--font-arabic);
+      font-size: 1.5rem;
+      color: var(--accent);
+      direction: rtl;
+      margin-bottom: 0.85rem;
+      line-height: 1.6;
+    }
+
+    .docs-hero-lead {
+      color: var(--text-secondary);
+      font-size: 1rem;
+      line-height: 1.65;
+      margin-bottom: 1.25rem;
+      max-width: 860px;
+    }
+
+    .docs-meta-pills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+
+    .meta-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      padding: 0.35rem 0.75rem;
+      border-radius: var(--radius-sm);
+      font-size: 0.82rem;
+      color: var(--text-secondary);
+    }
+
+    .meta-pill strong {
+      color: var(--text-primary);
+    }
+
+    /* Section Styling */
+    .docs-section {
+      margin-bottom: 3rem;
+    }
+
+    .section-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 1.25rem;
+      border-bottom: 2px solid var(--border);
+      padding-bottom: 0.75rem;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+
+    .section-header h2 {
+      font-size: 1.35rem;
+      color: var(--text-primary);
+      margin: 0;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .section-header p {
+      margin: 0.25rem 0 0 0;
+      font-size: 0.88rem;
+      color: var(--text-muted);
+    }
+
+    /* Fast Download Cards Grid */
+    .fast-downloads-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 1.25rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .fast-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 1.5rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      box-shadow: var(--shadow-sm);
+      transition: transform var(--transition-fast), border-color var(--transition-fast), box-shadow var(--transition-fast);
+    }
+
+    .fast-card:hover {
+      transform: translateY(-2px);
+      border-color: var(--primary);
+      box-shadow: var(--shadow);
+    }
+
+    .fast-card-header {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 0.75rem;
+      margin-bottom: 0.75rem;
+    }
+
+    .fast-badge {
+      font-size: 0.75rem;
+      font-weight: 700;
+      padding: 0.25rem 0.6rem;
+      border-radius: var(--radius-sm);
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+
+    .fast-badge.epub {
+      background: rgba(2, 132, 199, 0.15);
+      color: var(--primary-light);
+      border: 1px solid rgba(2, 132, 199, 0.3);
+    }
+
+    .fast-badge.pdf {
+      background: rgba(245, 158, 11, 0.15);
+      color: var(--accent);
+      border: 1px solid rgba(245, 158, 11, 0.3);
+    }
+
+    .fast-card h3 {
+      font-size: 1.15rem;
+      color: var(--text-primary);
+      margin: 0 0 0.5rem 0;
+    }
+
+    .fast-card p {
+      font-size: 0.9rem;
+      color: var(--text-secondary);
+      line-height: 1.55;
+      margin: 0 0 1.25rem 0;
+    }
+
+    .fast-features-list {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 1.25rem 0;
+      font-size: 0.85rem;
+      color: var(--text-muted);
+    }
+
+    .fast-features-list li {
+      margin-bottom: 0.4rem;
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+    }
+
+    .btn-download-primary {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      width: 100%;
+      padding: 0.75rem 1.25rem;
+      border-radius: var(--radius-sm);
+      background: var(--primary);
+      color: #ffffff;
+      font-weight: 700;
+      font-size: 0.92rem;
+      text-decoration: none;
+      transition: background-color var(--transition-fast);
+      box-sizing: border-box;
+      text-align: center;
+    }
+
+    .btn-download-primary:hover {
+      background: var(--primary-hover);
+    }
+
+    /* Filter Controls for Editions */
+    .edition-filter-bar {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      margin-bottom: 1.5rem;
+      flex-wrap: wrap;
+    }
+
+    .filter-btn {
+      padding: 0.45rem 0.95rem;
+      border-radius: var(--radius-full);
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      color: var(--text-secondary);
+      font-size: 0.85rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all var(--transition-fast);
+    }
+
+    .filter-btn:hover {
+      border-color: var(--primary);
+      color: var(--primary);
+    }
+
+    .filter-btn.active {
+      background: var(--primary);
+      border-color: var(--primary);
+      color: #ffffff;
+    }
+
+    /* Edition Archive Blocks */
+    .edition-block {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 1.75rem;
+      margin-bottom: 2rem;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .edition-block-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 1rem;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+    }
+
+    .edition-title-group h3 {
+      font-size: 1.25rem;
+      color: var(--text-primary);
+      margin: 0 0 0.25rem 0;
+    }
+
+    .edition-title-ar {
+      font-family: var(--font-arabic);
+      font-size: 1.2rem;
+      color: var(--accent);
+      direction: rtl;
+    }
+
+    .edition-desc {
+      font-size: 0.92rem;
+      color: var(--text-secondary);
+      line-height: 1.6;
+      margin-bottom: 1.25rem;
+    }
+
+    .edition-meta-details {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-bottom: 1.25rem;
+    }
+
+    /* Volume Table */
+    .volume-table-wrapper {
+      overflow-x: auto;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      margin-bottom: 1rem;
+    }
+
+    .volume-table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+      font-size: 0.88rem;
+    }
+
+    .volume-table th {
+      background: var(--bg-elevated);
+      color: var(--text-primary);
+      font-weight: 700;
+      padding: 0.75rem 1rem;
+      border-bottom: 1px solid var(--border);
+      white-space: nowrap;
+    }
+
+    .volume-table td {
+      padding: 0.75rem 1rem;
+      border-bottom: 1px solid var(--border);
+      color: var(--text-secondary);
+    }
+
+    .volume-table tr:last-child td {
+      border-bottom: none;
+    }
+
+    .volume-table tr:hover td {
+      background: var(--primary-subtle);
+    }
+
+    .btn-vol-download {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      padding: 0.35rem 0.75rem;
+      border-radius: 6px;
+      background: rgba(2, 132, 199, 0.15);
+      border: 1px solid rgba(2, 132, 199, 0.4);
+      color: var(--primary-light);
+      text-decoration: none;
+      font-size: 0.82rem;
+      font-weight: 600;
+      transition: all var(--transition-fast);
+      white-space: nowrap;
+    }
+
+    .btn-vol-download:hover {
+      background: var(--primary);
+      color: #ffffff;
+      border-color: var(--primary);
+    }
+
+    .btn-archive-page {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      color: var(--primary);
+      font-weight: 600;
+      font-size: 0.88rem;
+      text-decoration: none;
+    }
+
+    .btn-archive-page:hover {
+      text-decoration: underline;
+    }
+
+    /* CLI Snippet Card */
+    .cli-box {
+      background: #0f172a;
+      color: #e2e8f0;
+      border-radius: var(--radius-md);
+      padding: 1.25rem 1.5rem;
+      position: relative;
+      margin-top: 1rem;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 0.86rem;
+      line-height: 1.6;
+      border: 1px solid #1e293b;
+    }
+
+    .cli-copy-btn {
+      position: absolute;
+      top: 0.75rem;
+      right: 0.75rem;
+      background: #1e293b;
+      border: 1px solid #334155;
+      color: #cbd5e1;
+      padding: 0.35rem 0.65rem;
+      border-radius: 6px;
+      font-size: 0.78rem;
+      cursor: pointer;
+      transition: all var(--transition-fast);
+    }
+
+    .cli-copy-btn:hover {
+      background: #334155;
+      color: #ffffff;
+    }
+
+    /* Footer */
+    .docs-footer {
+      text-align: center;
+      border-top: 1px solid var(--border);
+      padding-top: 2rem;
+      margin-top: 4rem;
+      font-size: 0.88rem;
+      color: var(--text-muted);
+    }
+
+    .docs-footer a {
+      color: var(--primary);
+      text-decoration: none;
+    }
+
+    .docs-footer a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 640px) {
+      .docs-hero {
+        padding: 1.5rem 1.25rem;
+      }
+      .docs-hero h1 {
+        font-size: 1.45rem;
+      }
+      .edition-block {
+        padding: 1.25rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="docs-page-container">
+
+    <!-- Top Navigation -->
+    <header class="docs-nav-bar">
+      <a href="../" class="docs-brand-group" title="Kembali ke Pembaca Sahih Muslim">
+        <img src="../assets/logo-mark.svg" alt="Maktabah Maftoohah" class="docs-brand-logo" width="38" height="38">
+        <div>
+          <div class="docs-brand-title">Maktabah Maftoohah</div>
+          <div class="docs-brand-subtitle">Sahih Muslim • Dokumen Digital</div>
+        </div>
+      </a>
+      <div class="docs-nav-actions">
+        <a href="../" class="btn-nav-back">← Kembali ke Pembaca Hadis</a>
+        <button id="themeToggleBtn" class="btn-theme-toggle" title="Tukar Tema (Gelap / Cerah)" aria-label="Tukar Tema">🌓</button>
+      </div>
+    </header>
+
+    <!-- Hero Header -->
+    <section class="docs-hero">
+      <div class="docs-hero-tag">📚 Repositori Dokumen Primer &amp; Naskhah Cetakan</div>
+      <h1>Naskhah Cetakan Muktabar &amp; Dokumen Digital</h1>
+      <div class="docs-hero-ar">صحيح مسلم — نُسَخُ الطَّبَعَاتِ الْمُعْتَمَدَةِ وَالْوَثَائِقِ الرَّقْمِيَّةِ</div>
+      <p class="docs-hero-lead">
+        Halaman ini merekodkan arkib lengkap naskhah cetakan primer (*primary printed editions*), manuskrip fotolitografi muktabar, serta fail dokumen digital (EPUB 3.0 &amp; PDF) bagi koleksi agung <strong>Sahih Muslim</strong> (المسند الصحيح المختصر من السنن) yang disusun oleh <strong>Al-Imam Abu al-Husayn Muslim ibn al-Hajjaj al-Qushayri an-Naysaburi</strong> (204–261 H).
+      </p>
+      <div class="docs-meta-pills">
+        <span class="meta-pill"><strong>Penyusun:</strong> Imam Muslim (204–261 H)</span>
+        <span class="meta-pill"><strong>Skop:</strong> 57 Kitab • 7,563 Hadis</span>
+        <span class="meta-pill"><strong>Format:</strong> EPUB 3.0 • PDF Beresolusi Tinggi</span>
+        <span class="meta-pill"><strong>Akses:</strong> Terbuka (Public Domain &amp; Open Access)</span>
+      </div>
+    </section>
+
+    <!-- Bahagian 1: Dokumen Luar Talian Terbina Dalam Repositori -->
+    <section class="docs-section">
+      <div class="section-header">
+        <div>
+          <h2>📦 1. Dokumen Luar Talian Terbina Dalam Repositori</h2>
+          <p>Disimpan terus di dalam direktori <code>documents/</code> untuk capaian segera tanpa memerlukan internet.</p>
+        </div>
+      </div>
+
+      <div class="fast-downloads-grid">
+        <!-- Card EPUB -->
+        <div class="fast-card">
+          <div>
+            <div class="fast-card-header">
+              <span class="fast-badge epub">EPUB 3.0 Lengkap</span>
+              <span style="font-size: 0.85rem; color: var(--text-muted); font-weight: 600;">~3.7 MB</span>
+            </div>
+            <h3>Sahih Muslim — EPUB 3.0 Penuh</h3>
+            <p>E-buku lengkap merangkumi kesemua 57 Kitab (termasuk Muqaddimah) dan 7,563 Hadis. Mengandungi teks Arab berbaris penuh (*tashkeel*), terjemahan Bahasa Melayu, dan terjemahan Bahasa Inggeris (Nasiruddin al-Khattab).</p>
+            <ul class="fast-features-list">
+              <li>✓ Susun atur reflowable standard EPUB 3.0</li>
+              <li>✓ Serasi Apple Books, Moon+ Reader, Kobo, Calibre</li>
+              <li>✓ Tipografi Arab Amiri &amp; navigasi bab terperinci</li>
+            </ul>
+          </div>
+          <a href="../documents/sahih-muslim.epub" download class="btn-download-primary">
+            ⬇️ Muat Turun EPUB (3.7 MB)
+          </a>
+        </div>
+
+        <!-- Card PDF Dar al-Ta'sil Jilid 1 -->
+        <div class="fast-card">
+          <div>
+            <div class="fast-card-header">
+              <span class="fast-badge pdf">PDF Naskhah Asal</span>
+              <span style="font-size: 0.85rem; color: var(--text-muted); font-weight: 600;">~10.3 MB</span>
+            </div>
+            <h3>Dar al-Ta'sil Critical Edition — Jilid 1</h3>
+            <p>Imbasan dokumen resolusi tinggi Jilid Pertama daripada edisi tahqiq moden terulung oleh <em>Dar al-Ta'sil</em> (Kaherah 1435 H) berpandukan kolasi 3 manuskrip penuh klasik.</p>
+            <ul class="fast-features-list">
+              <li>✓ Merangkumi Muqaddimah al-Imam Muslim &amp; Kitab al-Iman</li>
+              <li>✓ Tahqiq rapi berdasar manuskrip Ibn Mahruz &amp; al-Dhahabi</li>
+              <li>✓ Format PDF resolusi tinggi berkualiti arkib</li>
+            </ul>
+          </div>
+          <a href="../documents/muslim_taseel_01.pdf" download class="btn-download-primary">
+            ⬇️ Muat Turun PDF Jilid 1 (10.3 MB)
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bahagian 2: Naskhah Cetakan Primer yang Diindeks Penuh -->
+    <section class="docs-section">
+      <div class="section-header">
+        <div>
+          <h2>🏛️ 2. Naskhah Cetakan Primer yang Diindeks (Pautan Muat Turun Penuh)</h2>
+          <p>Koleksi imbasan lengkap beresolusi tinggi diarkibkan di Internet Archive untuk kajian ilmiah dan rujukan primer.</p>
+        </div>
+      </div>
+
+      <!-- Filter Buttons -->
+      <div class="edition-filter-bar">
+        <button class="filter-btn active" data-filter="all">Semua Edisi</button>
+        <button class="filter-btn" data-filter="dar-al-taseel">Dar al-Ta'sil (8 Jilid)</button>
+        <button class="filter-btn" data-filter="abdul-baqi">Fu'ad 'Abd al-Baqi (5 Jilid)</button>
+        <button class="filter-btn" data-filter="darussalam-bilingual">Darussalam Dwibahasa (7 Jilid)</button>
+      </div>
+
+      <!-- Edisi 1: Dar al-Ta'sil -->
+      <div class="edition-block" data-edition="dar-al-taseel">
+        <div class="edition-block-header">
+          <div class="edition-title-group">
+            <h3>Dar al-Ta'sil Critical Edition (طبعة دار التأصيل)</h3>
+            <div class="edition-title-ar">طبعة دار التأصيل — القاهرة ١٤٣٥ هـ (٨ مجلدات)</div>
+          </div>
+          <a href="https://archive.org/details/3_20191217_20191217_1520" target="_blank" rel="noopener" class="btn-archive-page">
+            Buka di Internet Archive ↗
+          </a>
+        </div>
+        <p class="edition-desc">
+          Edisi tahqiq kritikal moden paling komprehensif yang dihasilkan oleh Dar al-Ta'sil (Kaherah, 1435 H / 2014 M). Ditahqiq berdasarkan kolasi teliti antara tiga naskhah manuskrip klasik lengkap, naskhah al-Hafiz al-Dhahabi, serta dirujuk silang dengan edisi Dar al-Tiba'ah al-'Amirah Istanbul.
+        </p>
+        <div class="edition-meta-details">
+          <span class="meta-pill"><strong>Tahun:</strong> 1435 H / 2014 M</span>
+          <span class="meta-pill"><strong>Penerbit:</strong> Dar al-Ta'sil (Kaherah)</span>
+          <span class="meta-pill"><strong>Jilid:</strong> 8 Jilid Lengkap</span>
+          <span class="meta-pill"><strong>Ciri Utama:</strong> Salasilah sanad, perbandingan teks manuskrip</span>
+        </div>
+
+        <div class="volume-table-wrapper">
+          <table class="volume-table">
+            <thead>
+              <tr>
+                <th style="width: 70px;">Jilid</th>
+                <th>Kandungan Kitab</th>
+                <th style="width: 90px;">Saiz</th>
+                <th style="width: 140px;">Tindakan</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Jilid 1</strong></td>
+                <td>Muqaddimah al-Imam Muslim &amp; Kitab al-Iman</td>
+                <td>10.3 MB</td>
+                <td><a href="../documents/muslim_taseel_01.pdf" download class="btn-vol-download">⬇️ Muat Turun</a></td>
+              </tr>
+              <tr>
+                <td><strong>Jilid 2</strong></td>
+                <td>Kitab al-Taharah hingga Kitab al-Salat</td>
+                <td>11.7 MB</td>
+                <td><a href="https://archive.org/download/3_20191217_20191217_1520/%D8%B5%D8%AD%D9%8A%D8%AD%20%D9%85%D8%B3%D9%84%D9%85%20%20%D8%AF%D8%A7%D8%B1%20%D8%A7%D9%84%D8%AA%D8%A3%D8%B5%D9%8A%D9%84%20%D8%AC%D9%84%D8%AF%202.pdf" target="_blank" rel="noopener" class="btn-vol-download">⬇️ Muat Turun</a></td>
+              </tr>
+              <tr>
+                <td><strong>Jilid 3</strong></td>
+                <td>Kitab al-Jumu'ah hingga Kitab al-Hajj</td>
+                <td>12.8 MB</td>
+                <td><a href="https://archive.org/download/3_20191217_20191217_1520/%D8%B5%D8%AD%D9%8A%D8%AD%20%D9%85%D8%B3%D9%84%D9%85%20%20%D8%AF%D8%A7%D8%B1%20%D8%A7%D9%84%D8%AA%D8%A3%D8%B5%D9%8A%D9%84%20%D8%AC%D9%84%D8%AF%203.pdf" target="_blank" rel="noopener" class="btn-vol-download">⬇️ Muat Turun</a></td>
+              </tr>
+              <tr>
+                <td><strong>Jilid 4</strong></td>
+                <td>Kitab al-Nikah hingga Kitab al-Buyu'</td>
+                <td>10.0 MB</td>
+                <td><a href="https://archive.org/download/3_20191217_20191217_1520/%D8%B5%D8%AD%D9%8A%D8%AD%20%D9%85%D8%B3%D9%84%D9%85%20%20%D8%AF%D8%A7%D8%B1%20%D8%A7%D9%84%D8%AA%D8%A3%D8%B5%D9%8A%D9%84%20%D8%AC%D9%84%D8%AF%204.pdf" target="_blank" rel="noopener" class="btn-vol-download">⬇️ Muat Turun</a></td>
+              </tr>
+              <tr>
+                <td><strong>Jilid 5</strong></td>
+                <td>Kitab al-Musaqah hingga Kitab al-Jihad wa al-Siyar</td>
+                <td>11.2 MB</td>
+                <td><a href="https://archive.org/download/3_20191217_20191217_1520/%D8%B5%D8%AD%D9%8A%D8%AD%20%D9%85%D8%B3%D9%84%D9%85%20%20%D8%AF%D8%A7%D8%B1%20%D8%A7%D9%84%D8%AA%D8%A3%D8%B5%D9%8A%D9%84%20%D8%AC%D9%84%D8%AF%205.pdf" target="_blank" rel="noopener" class="btn-vol-download">⬇️ Muat Turun</a></td>
+              </tr>
+              <tr>
+                <td><strong>Jilid 6</strong></td>
+                <td>Kitab al-Imarah hingga Kitab al-Adab</td>
+                <td>10.3 MB</td>
+                <td><a href="https://archive.org/download/3_20191217_20191217_1520/%D8%B5%D8%AD%D9%8A%D8%AD%20%D9%85%D8%B3%D9%84%D9%85%20%20%D8%AF%D8%A7%D8%B1%20%D8%A7%D9%84%D8%AA%D8%A3%D8%B5%D9%8A%D9%84%20%D8%AC%D9%84%D8%AF%206.pdf" target="_blank" rel="noopener" class="btn-vol-download">⬇️ Muat Turun</a></td>
+              </tr>
+              <tr>
+                <td><strong>Jilid 7</strong></td>
+                <td>Kitab al-Salam hingga Kitab al-Fitan wa Ashrat al-Sa'ah</td>
+                <td>9.9 MB</td>
+                <td><a href="https://archive.org/download/3_20191217_20191217_1520/%D8%B5%D8%AD%D9%8A%D8%AD%20%D9%85%D8%B3%D9%84%D9%85%20%20%D8%AF%D8%A7%D8%B1%20%D8%A7%D9%84%D8%AA%D8%A3%D8%B5%D9%8A%D9%84%20%D8%AC%D9%84%D8%AF%207.pdf" target="_blank" rel="noopener" class="btn-vol-download">⬇️ Muat Turun</a></td>
+              </tr>
+              <tr>
+                <td><strong>Jilid 8</strong></td>
+                <td>Kitab al-Zuhd, Kitab al-Tafsir &amp; Fihris Lengkap</td>
+                <td>8.5 MB</td>
+                <td><a href="https://archive.org/download/3_20191217_20191217_1520/%D8%B5%D8%AD%D9%8A%D8%AD%20%D9%85%D8%B3%D9%84%D9%85%20%20%D8%AF%D8%A7%D8%B1%20%D8%A7%D9%84%D8%AA%D8%A3%D8%B5%D9%8A%D9%84%20%D8%AC%D9%84%D8%AF%208.pdf" target="_blank" rel="noopener" class="btn-vol-download">⬇️ Muat Turun</a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- Edisi 2: Muhammad Fuad Abd al-Baqi -->
+      <div class="edition-block" data-edition="abdul-baqi">
+        <div class="edition-block-header">
+          <div class="edition-title-group">
+            <h3>Tahqiq Muhammad Fu'ad 'Abd al-Baqi (تحقيق محمد فؤاد عبد الباقي)</h3>
+            <div class="edition-title-ar">طبعة عيسى البابي الحلبي — القاهرة ١٣٧٤ هـ (٥ أجزاء مدمجة)</div>
+          </div>
+          <a href="https://archive.org/details/FP14478" target="_blank" rel="noopener" class="btn-archive-page">
+            Buka di Internet Archive ↗
+          </a>
+        </div>
+        <p class="edition-desc">
+          Piawaian penomboran antarabangsa terunggul bagi Sahih Muslim yang disusun oleh Syeikh Muhammad Fu'ad 'Abd al-Baqi pada tahun 1374 H / 1955 M melalui percetakan 'Isa al-Babi al-Halabi (kemudian diulang cetak oleh Dar Ihya' al-Turath al-'Arabi di Beirut). Edisi ini menetapkan penomboran 1–3,033 nombor induk hadis yang menjadi rujukan seluruh perisian moden dunia Islam.
+        </p>
+        <div class="edition-meta-details">
+          <span class="meta-pill"><strong>Tahun:</strong> 1374 H / 1955 M</span>
+          <span class="meta-pill"><strong>Penyunting:</strong> Muhammad Fu'ad 'Abd al-Baqi</span>
+          <span class="meta-pill"><strong>Jilid:</strong> 5 Jilid dalam 1 Naskhah Master</span>
+          <span class="meta-pill"><strong>Ciri Utama:</strong> Asas sistem penomboran antarabangsa hadis</span>
+        </div>
+
+        <div class="volume-table-wrapper">
+          <table class="volume-table">
+            <thead>
+              <tr>
+                <th style="width: 70px;">Jilid</th>
+                <th>Kandungan Kitab</th>
+                <th style="width: 90px;">Saiz</th>
+                <th style="width: 140px;">Tindakan</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Lengkap</strong></td>
+                <td>Naskhah Induk Keseluruhan 5 Jilid (Muqaddimah, 56 Kitab &amp; Fihris)</td>
+                <td>57.4 MB</td>
+                <td><a href="https://archive.org/download/FP14478/14478.pdf" target="_blank" rel="noopener" class="btn-vol-download">⬇️ Muat Turun PDF</a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- Edisi 3: Darussalam Bilingual -->
+      <div class="edition-block" data-edition="darussalam-bilingual">
+        <div class="edition-block-header">
+          <div class="edition-title-group">
+            <h3>Darussalam Arabic-English Bilingual (دار السلام)</h3>
+            <div class="edition-title-ar">طبعة دار السلام المترجمة بالإنجليزية — الرياض ١٤٢٨ هـ (٧ مجلدات)</div>
+          </div>
+          <a href="https://archive.org/details/SahihMuslimVol.111160EnglishArabic" target="_blank" rel="noopener" class="btn-archive-page">
+            Buka di Internet Archive ↗
+          </a>
+        </div>
+        <p class="edition-desc">
+          Edisi dwibahasa Arab-Inggeris rasmi terbitan Darussalam (Riyadh, 1428 H / 2007 M) yang diterjemahkan oleh Nasiruddin al-Khattab. Mengandungi matan Arab penuh berbaris, isnad lengkap, dan penomboran antarabangsa berturutan 1 hingga 7,563.
+        </p>
+        <div class="edition-meta-details">
+          <span class="meta-pill"><strong>Tahun:</strong> 1428 H / 2007 M</span>
+          <span class="meta-pill"><strong>Penterjemah:</strong> Nasiruddin al-Khattab</span>
+          <span class="meta-pill"><strong>Jilid:</strong> 7 Jilid Lengkap</span>
+          <span class="meta-pill"><strong>Skop:</strong> Hadis #1 hingga #7,563</span>
+        </div>
+
+        <div class="volume-table-wrapper">
+          <table class="volume-table">
+            <thead>
+              <tr>
+                <th style="width: 70px;">Jilid</th>
+                <th>Julat Hadis / Kandungan</th>
+                <th style="width: 90px;">Saiz</th>
+                <th style="width: 140px;">Tindakan</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Jilid 1</strong></td>
+                <td>Hadis #1 – #1160 (Muqaddimah, Kitab al-Iman, al-Taharah)</td>
+                <td>10.0 MB</td>
+                <td><a href="https://archive.org/download/SahihMuslimVol.111160EnglishArabic/Sahih%20Muslim%20Vol.%201%20-%201-1160%20English%20Arabic.pdf" target="_blank" rel="noopener" class="btn-vol-download">⬇️ Muat Turun</a></td>
+              </tr>
+              <tr>
+                <td><strong>Jilid 2</strong></td>
+                <td>Hadis #1161 – #2262 (Kitab al-Salat, al-Masajid, al-Jumu'ah)</td>
+                <td>8.2 MB</td>
+                <td><a href="https://archive.org/download/SahihMuslimVol.111160EnglishArabic/Sahih%20Muslim%20Vol.%202%20-%201161-2262%20English%20Arabic.pdf" target="_blank" rel="noopener" class="btn-vol-download">⬇️ Muat Turun</a></td>
+              </tr>
+              <tr>
+                <td><strong>Jilid 3</strong></td>
+                <td>Hadis #2263 – #3397 (Kitab al-Zakat, al-Siyam, al-Hajj)</td>
+                <td>8.3 MB</td>
+                <td><a href="https://archive.org/download/SahihMuslimVol.111160EnglishArabic/Sahih%20Muslim%20Vol.%203%20-%202263-3397%20English%20Arabic.pdf" target="_blank" rel="noopener" class="btn-vol-download">⬇️ Muat Turun</a></td>
+              </tr>
+              <tr>
+                <td><strong>Jilid 4</strong></td>
+                <td>Hadis #3398 – #4518 (Kitab al-Nikah, al-Rada', al-Talaq, al-Li'an)</td>
+                <td>7.7 MB</td>
+                <td><a href="https://archive.org/download/SahihMuslimVol.111160EnglishArabic/Sahih%20Muslim%20Vol.%204%20-%203398-4518English%20Arabic.pdf" target="_blank" rel="noopener" class="btn-vol-download">⬇️ Muat Turun</a></td>
+              </tr>
+              <tr>
+                <td><strong>Jilid 5</strong></td>
+                <td>Hadis #4519 – #5645 (Kitab al-Buyu', al-Fara'id, al-Wasiyyah, al-Jihad)</td>
+                <td>8.2 MB</td>
+                <td><a href="https://archive.org/download/SahihMuslimVol.111160EnglishArabic/Sahih%20Muslim%20Vol.%205%20-%204519-5645%20English%20Arabic.pdf" target="_blank" rel="noopener" class="btn-vol-download">⬇️ Muat Turun</a></td>
+              </tr>
+              <tr>
+                <td><strong>Jilid 6</strong></td>
+                <td>Hadis #5646 – #6722 (Kitab al-Imarah, al-Sayd, al-Ashribah, al-Libas)</td>
+                <td>7.8 MB</td>
+                <td><a href="https://archive.org/download/SahihMuslimVol.111160EnglishArabic/Sahih%20Muslim%20Vol.%206%20-%205646-6722%20English%20Arabic.pdf" target="_blank" rel="noopener" class="btn-vol-download">⬇️ Muat Turun</a></td>
+              </tr>
+              <tr>
+                <td><strong>Jilid 7</strong></td>
+                <td>Hadis #6723 – #7563 (Kitab al-Fada'il, al-Dhikr, al-Tawbah, al-Fitan)</td>
+                <td>8.6 MB</td>
+                <td><a href="https://archive.org/download/SahihMuslimVol.111160EnglishArabic/Sahih%20Muslim%20Vol.%207%20-%206723-7563%20English%20Arabic.pdf" target="_blank" rel="noopener" class="btn-vol-download">⬇️ Muat Turun</a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- Bahagian 3: CLI Muat Turun Automatik -->
+    <section class="docs-section">
+      <div class="section-header">
+        <div>
+          <h2>💻 3. Muat Turun Berkelompok Melalui Baris Perintah (CLI)</h2>
+          <p>Gunakan skrip Python terbina dalam untuk memuat turun jilid tambahan ke komputer anda secara automatik.</p>
+        </div>
+      </div>
+
+      <div class="cli-box">
+        <button class="cli-copy-btn" id="copyCliBtn">Salin Arahan</button>
+<span style="color: #64748b;"># 1. Lihat senarai jilid yang tersedia bagi Edisi Dar al-Ta'sil</span>
+python scripts/download_scanned_editions.py --edition dar-al-taseel
+
+<span style="color: #64748b;"># 2. Muat turun jilid tertentu (contohnya Jilid 2)</span>
+python scripts/download_scanned_editions.py --edition dar-al-taseel --volume 2
+
+<span style="color: #64748b;"># 3. Muat turun kesemua 8 jilid Edisi Dar al-Ta'sil sekaligus</span>
+python scripts/download_scanned_editions.py --edition dar-al-taseel --all
+
+<span style="color: #64748b;"># 4. Muat turun naskhah terjemahan dwibahasa Darussalam (Jilid 1)</span>
+python scripts/download_scanned_editions.py --edition darussalam-bilingual --volume 1
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="docs-footer">
+      <p>
+        <strong>Maktabah Maftoohah (المكتبة المفتوحة)</strong> — Zero-Build Open Islamic Heritage
+      </p>
+      <p>
+        <a href="../">Pembaca Hadis Web</a> • 
+        <a href="https://github.com/maktabah-maftoohah/sahih-muslim" target="_blank" rel="noopener">GitHub Repository</a> • 
+        <a href="https://maktabah-maftoohah.github.io/al-quran/" target="_blank" rel="noopener">Al-Quran Digital</a> • 
+        <a href="https://maktabah-maftoohah.github.io/sahih-al-bukhari/" target="_blank" rel="noopener">Sahih al-Bukhari</a>
+      </p>
+    </footer>
+
+  </div>
+
+  <script>
+    // Theme Management synced with main application
+    (function() {
+      const themeToggleBtn = document.getElementById('themeToggleBtn');
+      const htmlElement = document.documentElement;
+
+      function getSavedTheme() {
+        return localStorage.getItem('muslim_theme') || 
+               (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      }
+
+      function applyTheme(theme) {
+        htmlElement.setAttribute('data-theme', theme);
+        localStorage.setItem('muslim_theme', theme);
+        if (themeToggleBtn) {
+          themeToggleBtn.textContent = theme === 'dark' ? '☀️' : '🌙';
+          themeToggleBtn.setAttribute('title', theme === 'dark' ? 'Tukar ke Tema Cerah' : 'Tukar ke Tema Gelap');
+        }
+      }
+
+      // Initialize theme
+      applyTheme(getSavedTheme());
+
+      if (themeToggleBtn) {
+        themeToggleBtn.addEventListener('click', () => {
+          const current = htmlElement.getAttribute('data-theme');
+          applyTheme(current === 'dark' ? 'light' : 'dark');
+        });
+      }
+
+      // Filter Editions
+      const filterBtns = document.querySelectorAll('.filter-btn');
+      const blocks = document.querySelectorAll('.edition-block');
+
+      filterBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+          filterBtns.forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+
+          const filter = btn.getAttribute('data-filter');
+          blocks.forEach(block => {
+            if (filter === 'all' || block.getAttribute('data-edition') === filter) {
+              block.style.display = 'block';
+            } else {
+              block.style.display = 'none';
+            }
+          });
+        });
+      });
+
+      // Copy CLI button
+      const copyBtn = document.getElementById('copyCliBtn');
+      if (copyBtn) {
+        copyBtn.addEventListener('click', () => {
+          const cliCommands = `python scripts/download_scanned_editions.py --edition dar-al-taseel\npython scripts/download_scanned_editions.py --edition dar-al-taseel --volume 2\npython scripts/download_scanned_editions.py --edition dar-al-taseel --all`;
+          navigator.clipboard.writeText(cliCommands).then(() => {
+            copyBtn.textContent = 'Disalin! ✓';
+            setTimeout(() => {
+              copyBtn.textContent = 'Salin Arahan';
+            }, 2000);
+          });
+        });
+      }
+    })();
+  </script>
+</body>
+</html>

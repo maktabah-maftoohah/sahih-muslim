@@ -66,6 +66,7 @@
         <p class="app-title-ar" dir="rtl">صحيح مسلم</p>
       </div>
       <div class="header-actions">
+        <button id="docsToggle" class="btn-pill" title="Muat Turun Dokumen">📥 PDF / EPUB</button>
         <button id="themeToggle" class="btn-icon" title="Tukar Tema">🌙</button>
         <button id="langToggle" class="btn-pill" title="Tukar Bahasa">MY / EN</button>
       </div>
@@ -80,6 +81,36 @@
       <p class="loading-state">Memuatkan kandungan...</p>
     </section>
   </main>
+
+  <!-- Modal Muat Turun Dokumen -->
+  <dialog id="docsModal" class="docs-modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3>📚 Muat Turun Dokumen &amp; Naskhah Cetakan</h3>
+        <button id="closeDocsModal" class="btn-close" aria-label="Tutup">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div class="doc-card">
+          <div class="doc-badge">EPUB 3.0 Lengkap</div>
+          <h4>Sahih Muslim (57 Kitab, 7,563 Hadis)</h4>
+          <p>Teks Arab berbaris penuh berserta Terjemahan Melayu &amp; Inggeris dalam satu fail e-buku.</p>
+          <a href="./documents/sahih-muslim.epub" download class="btn-download">⬇️ Muat Turun EPUB (3.7 MB)</a>
+        </div>
+        <div class="doc-card">
+          <div class="doc-badge">PDF Edisi Tahqiq Pilihan</div>
+          <h4>Dar al-Ta'sil Critical Edition — Jilid 1 (Kaherah 1435 H)</h4>
+          <p>Imbasan naskhah tahqiq muktabar berasaskan kolasi manuskrip lengkap dan pohon sanad.</p>
+          <a href="./documents/muslim_taseel_01.pdf" download class="btn-download">⬇️ Muat Turun PDF Jilid 1 (10.3 MB)</a>
+        </div>
+        <div class="doc-card external">
+          <div class="doc-badge">Koleksi Lengkap Pelbagai Edisi</div>
+          <h4>Arkib Imbasan Penuh (Dar al-Ta'sil, Abd al-Baqi, Darussalam)</h4>
+          <p>Lihat senarai dan pautan muat turun kesemua jilid resolusi tinggi di Internet Archive.</p>
+          <a href="./docs/" target="_blank" class="btn-download secondary">📖 Buka Panduan &amp; Pautan Penuh</a>
+        </div>
+      </div>
+    </div>
+  </dialog>
 
   <footer class="app-footer">
     <p>Maktabah Maftoohah — Zero-Build Open Islamic Heritage</p>
