@@ -1,48 +1,69 @@
 [
   {
+    "book_number": 0,
+    "title_ar": "مقدمة صحيح مسلم",
+    "title_ms": "Muqaddimah Sahih Muslim (Pengenalan Hadis)",
+    "title_en": "Introduction to Sahih Muslim",
+    "hadith_range": "1-92",
+    "hadiths_count": 92,
+    "hadith_start": 1,
+    "hadith_end": 92,
+    "hadith_count": 92
+  },
+  {
     "book_number": 1,
     "title_ar": "كتاب الإيمان",
     "title_ms": "Kitab Iman",
     "title_en": "Book of Faith",
-    "hadith_start": 1,
-    "hadith_end": 430,
-    "hadith_count": 430
+    "hadith_start": 93,
+    "hadith_end": 533,
+    "hadith_count": 439,
+    "hadith_range": "93-533",
+    "hadiths_count": 439
   },
   {
     "book_number": 2,
     "title_ar": "كتاب الطهارة",
     "title_ms": "Kitab Bersuci (Taharah)",
     "title_en": "Book of Purification",
-    "hadith_start": 431,
-    "hadith_end": 578,
-    "hadith_count": 148
+    "hadith_start": 534,
+    "hadith_end": 678,
+    "hadith_count": 145,
+    "hadith_range": "534-678",
+    "hadiths_count": 145
   },
   {
     "book_number": 3,
     "title_ar": "كتاب الحيض",
     "title_ms": "Kitab Haid",
     "title_en": "Book of Menstruation",
-    "hadith_start": 579,
-    "hadith_end": 686,
-    "hadith_count": 108
+    "hadith_start": 679,
+    "hadith_end": 836,
+    "hadith_count": 158,
+    "hadith_range": "679-836",
+    "hadiths_count": 158
   },
   {
     "book_number": 4,
     "title_ar": "كتاب الصلاة",
     "title_ms": "Kitab Solat",
     "title_en": "Book of Prayers",
-    "hadith_start": 687,
-    "hadith_end": 1057,
-    "hadith_count": 371
+    "hadith_start": 837,
+    "hadith_end": 1160,
+    "hadith_count": 324,
+    "hadith_range": "837-1160",
+    "hadiths_count": 324
   },
   {
     "book_number": 5,
     "title_ar": "كتاب المساجد ومواضع الصلاة",
     "title_ms": "Kitab Masjid dan Tempat Solat",
     "title_en": "Book of Mosques and Places of Prayer",
-    "hadith_start": 1058,
+    "hadith_start": 1161,
     "hadith_end": 1569,
-    "hadith_count": 512
+    "hadith_count": 409,
+    "hadith_range": "1161-1569",
+    "hadiths_count": 409
   },
   {
     "book_number": 6,
@@ -50,439 +71,559 @@
     "title_ms": "Kitab Solat Musafir dan Qasar",
     "title_en": "Book of Prayer of Travelers",
     "hadith_start": 1570,
-    "hadith_end": 1782,
-    "hadith_count": 213
+    "hadith_end": 1950,
+    "hadith_count": 381,
+    "hadith_range": "1570-1950",
+    "hadiths_count": 381
   },
   {
     "book_number": 7,
     "title_ar": "كتاب الجمعة",
     "title_ms": "Kitab Solat Jumaat",
     "title_en": "Book of Friday Prayer",
-    "hadith_start": 1783,
-    "hadith_end": 1845,
-    "hadith_count": 63
+    "hadith_start": 1951,
+    "hadith_end": 2043,
+    "hadith_count": 93,
+    "hadith_range": "1951-2043",
+    "hadiths_count": 93
   },
   {
     "book_number": 8,
     "title_ar": "كتاب صلاة العيدين",
     "title_ms": "Kitab Solat Dua Hari Raya",
     "title_en": "Book of Prayer of Two Eids",
-    "hadith_start": 1846,
-    "hadith_end": 1867,
-    "hadith_count": 22
+    "hadith_start": 2044,
+    "hadith_end": 2069,
+    "hadith_count": 26,
+    "hadith_range": "2044-2069",
+    "hadiths_count": 26
   },
   {
     "book_number": 9,
     "title_ar": "كتاب صلاة الاستسقاء",
     "title_ms": "Kitab Solat Istisqa'",
     "title_en": "Book of Prayer for Rain",
-    "hadith_start": 1868,
-    "hadith_end": 1878,
-    "hadith_count": 11
+    "hadith_start": 2070,
+    "hadith_end": 2088,
+    "hadith_count": 19,
+    "hadith_range": "2070-2088",
+    "hadiths_count": 19
   },
   {
     "book_number": 10,
     "title_ar": "كتاب الكسوف",
     "title_ms": "Kitab Solat Gerhana",
     "title_en": "Book of Prayer of Eclipses",
-    "hadith_start": 1879,
-    "hadith_end": 1906,
-    "hadith_count": 28
+    "hadith_start": 2089,
+    "hadith_end": 2122,
+    "hadith_count": 34,
+    "hadith_range": "2089-2122",
+    "hadiths_count": 34
   },
   {
     "book_number": 11,
     "title_ar": "كتاب الجنائز",
     "title_ms": "Kitab Jenazah",
     "title_en": "Book of Funerals",
-    "hadith_start": 1907,
-    "hadith_end": 2043,
-    "hadith_count": 137
+    "hadith_start": 2123,
+    "hadith_end": 2262,
+    "hadith_count": 140,
+    "hadith_range": "2123-2262",
+    "hadiths_count": 140
   },
   {
     "book_number": 12,
     "title_ar": "كتاب الزكاة",
     "title_ms": "Kitab Zakat",
     "title_en": "Book of Zakat",
-    "hadith_start": 2044,
-    "hadith_end": 2341,
-    "hadith_count": 298
+    "hadith_start": 2263,
+    "hadith_end": 2494,
+    "hadith_count": 232,
+    "hadith_range": "2263-2494",
+    "hadiths_count": 232
   },
   {
     "book_number": 13,
     "title_ar": "كتاب الصيام",
     "title_ms": "Kitab Puasa",
     "title_en": "Book of Fasting",
-    "hadith_start": 2342,
-    "hadith_end": 2581,
-    "hadith_count": 240
+    "hadith_start": 2495,
+    "hadith_end": 2779,
+    "hadith_count": 285,
+    "hadith_range": "2495-2779",
+    "hadiths_count": 285
   },
   {
     "book_number": 14,
     "title_ar": "كتاب الاعتكاف",
     "title_ms": "Kitab Iktikaf",
     "title_en": "Book of I'tikaf",
-    "hadith_start": 2582,
-    "hadith_end": 2596,
-    "hadith_count": 15
+    "hadith_start": 2780,
+    "hadith_end": 2790,
+    "hadith_count": 11,
+    "hadith_range": "2780-2790",
+    "hadiths_count": 11
   },
   {
     "book_number": 15,
     "title_ar": "كتاب الحج",
     "title_ms": "Kitab Haji",
     "title_en": "Book of Pilgrimage (Hajj)",
-    "hadith_start": 2597,
-    "hadith_end": 3159,
-    "hadith_count": 563
+    "hadith_start": 2791,
+    "hadith_end": 3397,
+    "hadith_count": 607,
+    "hadith_range": "2791-3397",
+    "hadiths_count": 607
   },
   {
     "book_number": 16,
     "title_ar": "كتاب النكاح",
     "title_ms": "Kitab Nikah",
     "title_en": "Book of Marriage",
-    "hadith_start": 3160,
-    "hadith_end": 3397,
-    "hadith_count": 238
+    "hadith_start": 388,
+    "hadith_end": 3567,
+    "hadith_count": 171,
+    "hadith_range": "388-3567",
+    "hadiths_count": 171
   },
   {
     "book_number": 17,
     "title_ar": "كتاب الرضاع",
     "title_ms": "Kitab Penyusuan",
     "title_en": "Book of Suckling",
-    "hadith_start": 3398,
-    "hadith_end": 3462,
-    "hadith_count": 65
+    "hadith_start": 3568,
+    "hadith_end": 3651,
+    "hadith_count": 84,
+    "hadith_range": "3568-3651",
+    "hadiths_count": 84
   },
   {
     "book_number": 18,
     "title_ar": "كتاب الطلاق",
     "title_ms": "Kitab Talak",
     "title_en": "Book of Divorce",
-    "hadith_start": 3463,
-    "hadith_end": 3532,
-    "hadith_count": 70
+    "hadith_start": 3652,
+    "hadith_end": 3742,
+    "hadith_count": 91,
+    "hadith_range": "3652-3742",
+    "hadiths_count": 91
   },
   {
     "book_number": 19,
     "title_ar": "كتاب اللعان",
     "title_ms": "Kitab Li'an",
     "title_en": "Book of Invoking Curses (Li'an)",
-    "hadith_start": 3533,
-    "hadith_end": 3559,
-    "hadith_count": 27
+    "hadith_start": 3743,
+    "hadith_end": 3769,
+    "hadith_count": 27,
+    "hadith_range": "3743-3769",
+    "hadiths_count": 27
   },
   {
     "book_number": 20,
     "title_ar": "كتاب العتق",
     "title_ms": "Kitab Memerdekakan Hamba",
     "title_en": "Book of Emancipation of Slaves",
-    "hadith_start": 3560,
-    "hadith_end": 3608,
-    "hadith_count": 49
+    "hadith_start": 3770,
+    "hadith_end": 3800,
+    "hadith_count": 31,
+    "hadith_range": "3770-3800",
+    "hadiths_count": 31
   },
   {
     "book_number": 21,
     "title_ar": "كتاب البيوع",
     "title_ms": "Kitab Jual Beli",
     "title_en": "Book of Transactions",
-    "hadith_start": 3609,
-    "hadith_end": 3760,
-    "hadith_count": 152
+    "hadith_start": 3801,
+    "hadith_end": 3961,
+    "hadith_count": 161,
+    "hadith_range": "3801-3961",
+    "hadiths_count": 161
   },
   {
     "book_number": 22,
     "title_ar": "كتاب المساقاة",
     "title_ms": "Kitab Pengairan dan Pertanian",
     "title_en": "Book of Sharecropping and Watering",
-    "hadith_start": 3761,
-    "hadith_end": 3937,
-    "hadith_count": 177
+    "hadith_start": 3962,
+    "hadith_end": 4139,
+    "hadith_count": 178,
+    "hadith_range": "3962-4139",
+    "hadiths_count": 178
   },
   {
     "book_number": 23,
     "title_ar": "كتاب الفرائض",
     "title_ms": "Kitab Pembahagian Pusaka",
     "title_en": "Book of Inheritance",
-    "hadith_start": 3938,
-    "hadith_end": 3960,
-    "hadith_count": 23
+    "hadith_start": 4140,
+    "hadith_end": 4162,
+    "hadith_count": 23,
+    "hadith_range": "4140-4162",
+    "hadiths_count": 23
   },
   {
     "book_number": 24,
     "title_ar": "كتاب الهبات",
     "title_ms": "Kitab Hadiah (Hibah)",
     "title_en": "Book of Gifts",
-    "hadith_start": 3961,
-    "hadith_end": 3991,
-    "hadith_count": 31
+    "hadith_start": 4163,
+    "hadith_end": 4203,
+    "hadith_count": 41,
+    "hadith_range": "4163-4203",
+    "hadiths_count": 41
   },
   {
     "book_number": 25,
     "title_ar": "كتاب الوصية",
     "title_ms": "Kitab Wasiat",
     "title_en": "Book of Wills",
-    "hadith_start": 3992,
-    "hadith_end": 4016,
-    "hadith_count": 25
+    "hadith_start": 4204,
+    "hadith_end": 4234,
+    "hadith_count": 31,
+    "hadith_range": "4204-4234",
+    "hadiths_count": 31
   },
   {
     "book_number": 26,
     "title_ar": "كتاب النذر",
     "title_ms": "Kitab Nazar",
     "title_en": "Book of Vows",
-    "hadith_start": 4017,
-    "hadith_end": 4031,
-    "hadith_count": 15
+    "hadith_start": 4235,
+    "hadith_end": 4253,
+    "hadith_count": 19,
+    "hadith_range": "4235-4253",
+    "hadiths_count": 19
   },
   {
     "book_number": 27,
     "title_ar": "كتاب الأيمان",
     "title_ms": "Kitab Sumpah",
     "title_en": "Book of Oaths",
-    "hadith_start": 4032,
-    "hadith_end": 4104,
-    "hadith_count": 73
+    "hadith_start": 4254,
+    "hadith_end": 4341,
+    "hadith_count": 88,
+    "hadith_range": "4254-4341",
+    "hadiths_count": 88
   },
   {
     "book_number": 28,
     "title_ar": "كتاب القسامة والمحاربين والقصاص والديات",
     "title_ms": "Kitab Qasamah, Qisas dan Diyat",
     "title_en": "Book of Oaths, Retaliation and Blood Money",
-    "hadith_start": 4105,
-    "hadith_end": 4153,
-    "hadith_count": 49
+    "hadith_start": 4342,
+    "hadith_end": 4397,
+    "hadith_count": 56,
+    "hadith_range": "4342-4397",
+    "hadiths_count": 56
   },
   {
     "book_number": 29,
     "title_ar": "كتاب الحدود",
     "title_ms": "Kitab Hudud",
     "title_en": "Book of Punishments",
-    "hadith_start": 4154,
-    "hadith_end": 4213,
-    "hadith_count": 60
+    "hadith_start": 4398,
+    "hadith_end": 4469,
+    "hadith_count": 72,
+    "hadith_range": "4398-4469",
+    "hadiths_count": 72
   },
   {
     "book_number": 30,
     "title_ar": "كتاب الأقضية",
     "title_ms": "Kitab Kehakiman",
     "title_en": "Book of Judicial Decisions",
-    "hadith_start": 4214,
-    "hadith_end": 4235,
-    "hadith_count": 22
+    "hadith_start": 4470,
+    "hadith_end": 4497,
+    "hadith_count": 28,
+    "hadith_range": "4470-4497",
+    "hadiths_count": 28
   },
   {
     "book_number": 31,
     "title_ar": "كتاب اللقطة",
     "title_ms": "Kitab Barang Temuan",
     "title_en": "Book of Lost Property",
-    "hadith_start": 4236,
-    "hadith_end": 4252,
-    "hadith_count": 17
+    "hadith_start": 4498,
+    "hadith_end": 4518,
+    "hadith_count": 21,
+    "hadith_range": "4498-4518",
+    "hadiths_count": 21
   },
   {
     "book_number": 32,
     "title_ar": "كتاب الجهاد والسير",
     "title_ms": "Kitab Jihad dan Ekspedisi",
     "title_en": "Book of Jihad and Expeditions",
-    "hadith_start": 4253,
-    "hadith_end": 4446,
-    "hadith_count": 194
+    "hadith_start": 4519,
+    "hadith_end": 4700,
+    "hadith_count": 182,
+    "hadith_range": "4519-4700",
+    "hadiths_count": 182
   },
   {
     "book_number": 33,
     "title_ar": "كتاب الإمارة",
     "title_ms": "Kitab Kepimpinan dan Pemerintahan",
     "title_en": "Book of Government / Leadership",
-    "hadith_start": 4447,
-    "hadith_end": 4642,
-    "hadith_count": 196
+    "hadith_start": 4701,
+    "hadith_end": 4971,
+    "hadith_count": 271,
+    "hadith_range": "4701-4971",
+    "hadiths_count": 271
   },
   {
     "book_number": 34,
     "title_ar": "كتاب الصيد والذبائح وما يؤكل من الحيوان",
     "title_ms": "Kitab Buruan dan Sembelihan",
     "title_en": "Book of Hunting and Slaughter",
-    "hadith_start": 4643,
-    "hadith_end": 4721,
-    "hadith_count": 79
+    "hadith_start": 4972,
+    "hadith_end": 5063,
+    "hadith_count": 92,
+    "hadith_range": "4972-5063",
+    "hadiths_count": 92
   },
   {
     "book_number": 35,
     "title_ar": "كتاب الأضاحي",
     "title_ms": "Kitab Korban (Udhiyyah)",
     "title_en": "Book of Sacrifices",
-    "hadith_start": 4722,
-    "hadith_end": 4768,
-    "hadith_count": 47
+    "hadith_start": 5064,
+    "hadith_end": 5126,
+    "hadith_count": 61,
+    "hadith_range": "5064-5126",
+    "hadiths_count": 61
   },
   {
     "book_number": 36,
     "title_ar": "كتاب الأشربة",
     "title_ms": "Kitab Minuman",
     "title_en": "Book of Drinks",
-    "hadith_start": 4769,
-    "hadith_end": 4983,
-    "hadith_count": 215
+    "hadith_start": 5114,
+    "hadith_end": 5384,
+    "hadith_count": 260,
+    "hadith_range": "5114-5384",
+    "hadiths_count": 260
   },
   {
     "book_number": 37,
     "title_ar": "كتاب اللباس والزينة",
     "title_ms": "Kitab Pakaian dan Perhiasan",
     "title_en": "Book of Clothes and Decoration",
-    "hadith_start": 4984,
-    "hadith_end": 5126,
-    "hadith_count": 143
+    "hadith_start": 5385,
+    "hadith_end": 5585,
+    "hadith_count": 201,
+    "hadith_range": "5385-5585",
+    "hadiths_count": 201
   },
   {
     "book_number": 38,
     "title_ar": "كتاب الآداب",
     "title_ms": "Kitab Adab",
     "title_en": "Book of Manners and Etiquette",
-    "hadith_start": 5127,
-    "hadith_end": 5176,
-    "hadith_count": 50
+    "hadith_start": 5586,
+    "hadith_end": 5645,
+    "hadith_count": 60,
+    "hadith_range": "5586-5645",
+    "hadiths_count": 60
   },
   {
     "book_number": 39,
     "title_ar": "كتاب السلام",
     "title_ms": "Kitab Memberi Salam",
     "title_en": "Book of Greetings (Salam)",
-    "hadith_start": 5177,
-    "hadith_end": 5351,
-    "hadith_count": 175
+    "hadith_start": 5646,
+    "hadith_end": 5861,
+    "hadith_count": 216,
+    "hadith_range": "5646-5861",
+    "hadiths_count": 216
   },
   {
     "book_number": 40,
     "title_ar": "كتاب الألفاظ من الأدب وغيرها",
     "title_ms": "Kitab Lafaz-Lafaz dan Panggilan",
     "title_en": "Book of General Manners",
-    "hadith_start": 5352,
-    "hadith_end": 5373,
-    "hadith_count": 22
+    "hadith_start": 5862,
+    "hadith_end": 5886,
+    "hadith_count": 25,
+    "hadith_range": "5862-5886",
+    "hadiths_count": 25
   },
   {
     "book_number": 41,
     "title_ar": "كتاب الشعر",
     "title_ms": "Kitab Syair",
     "title_en": "Book of Poetry",
-    "hadith_start": 5374,
-    "hadith_end": 5382,
-    "hadith_count": 9
+    "hadith_start": 5887,
+    "hadith_end": 5896,
+    "hadith_count": 10,
+    "hadith_range": "5887-5896",
+    "hadiths_count": 10
   },
   {
     "book_number": 42,
     "title_ar": "كتاب الرؤيا",
     "title_ms": "Kitab Mimpi",
     "title_en": "Book of Dreams",
-    "hadith_start": 5383,
-    "hadith_end": 5408,
-    "hadith_count": 26
+    "hadith_start": 5897,
+    "hadith_end": 5937,
+    "hadith_count": 41,
+    "hadith_range": "5897-5937",
+    "hadiths_count": 41
   },
   {
     "book_number": 43,
     "title_ar": "كتاب الفضائل",
     "title_ms": "Kitab Keutamaan Nabi ﷺ",
     "title_en": "Book of Virtues",
-    "hadith_start": 5409,
-    "hadith_end": 5585,
-    "hadith_count": 177
+    "hadith_start": 384,
+    "hadith_end": 6168,
+    "hadith_count": 232,
+    "hadith_range": "384-6168",
+    "hadiths_count": 232
   },
   {
     "book_number": 44,
     "title_ar": "كتاب فضائل الصحابة",
     "title_ms": "Kitab Keutamaan Para Sahabat",
     "title_en": "Book of Virtues of the Companions",
-    "hadith_start": 5586,
-    "hadith_end": 5835,
-    "hadith_count": 250
+    "hadith_start": 6169,
+    "hadith_end": 6499,
+    "hadith_count": 331,
+    "hadith_range": "6169-6499",
+    "hadiths_count": 331
   },
   {
     "book_number": 45,
     "title_ar": "كتاب البر والصلة والآداب",
     "title_ms": "Kitab Kebajikan, Silaturahim dan Akhlak",
     "title_en": "Book of Virtue, Good Manners and Ties of Kinship",
-    "hadith_start": 5836,
-    "hadith_end": 6079,
-    "hadith_count": 244
+    "hadith_start": 6500,
+    "hadith_end": 6722,
+    "hadith_count": 223,
+    "hadith_range": "6500-6722",
+    "hadiths_count": 223
   },
   {
     "book_number": 46,
     "title_ar": "كتاب القدر",
     "title_ms": "Kitab Qadar (Ketetapan Ilahi)",
     "title_en": "Book of Destiny",
-    "hadith_start": 6080,
-    "hadith_end": 6124,
-    "hadith_count": 45
+    "hadith_start": 6723,
+    "hadith_end": 6774,
+    "hadith_count": 52,
+    "hadith_range": "6723-6774",
+    "hadiths_count": 52
   },
   {
     "book_number": 47,
     "title_ar": "كتاب العلم",
     "title_ms": "Kitab Ilmu",
     "title_en": "Book of Knowledge",
-    "hadith_start": 6125,
-    "hadith_end": 6147,
-    "hadith_count": 23
+    "hadith_start": 6775,
+    "hadith_end": 6804,
+    "hadith_count": 30,
+    "hadith_range": "6775-6804",
+    "hadiths_count": 30
   },
   {
     "book_number": 48,
     "title_ar": "كتاب الذكر والدعاء والتوبة والاستغفار",
     "title_ms": "Kitab Zikir, Doa, Taubat dan Istighfar",
     "title_en": "Book of Remembrance, Supplication and Repentance",
-    "hadith_start": 6148,
-    "hadith_end": 6314,
-    "hadith_count": 167
+    "hadith_start": 6805,
+    "hadith_end": 6936,
+    "hadith_count": 132,
+    "hadith_range": "6805-6936",
+    "hadiths_count": 132
   },
   {
     "book_number": 49,
     "title_ar": "كتاب الرقاق",
     "title_ms": "Kitab Kelembutan Hati",
     "title_en": "Book of Heart-Melting Traditions",
-    "hadith_start": 6315,
-    "hadith_end": 6370,
-    "hadith_count": 56
+    "hadith_start": 6937,
+    "hadith_end": 6951,
+    "hadith_count": 15,
+    "hadith_range": "6937-6951",
+    "hadiths_count": 15
   },
   {
     "book_number": 50,
     "title_ar": "كتاب التوبة",
     "title_ms": "Kitab Taubat",
     "title_en": "Book of Repentance",
-    "hadith_start": 6371,
-    "hadith_end": 6439,
-    "hadith_count": 69
+    "hadith_start": 6952,
+    "hadith_end": 7023,
+    "hadith_count": 72,
+    "hadith_range": "6952-7023",
+    "hadiths_count": 72
   },
   {
     "book_number": 51,
     "title_ar": "كتاب صفات المنافقين وأحكامهم",
     "title_ms": "Kitab Sifat-Sifat Golongan Munafik",
     "title_en": "Book of Characteristics of Hypocrites",
-    "hadith_start": 6440,
-    "hadith_end": 6461,
-    "hadith_count": 22
+    "hadith_start": 7024,
+    "hadith_end": 7044,
+    "hadith_count": 21,
+    "hadith_range": "7024-7044",
+    "hadiths_count": 21
   },
   {
     "book_number": 52,
     "title_ar": "كتاب صفة القيامة والجنة والنار",
     "title_ms": "Kitab Sifat Kiamat, Syurga dan Neraka",
     "title_en": "Book of Resurrection, Paradise and Hell",
-    "hadith_start": 6462,
-    "hadith_end": 6554,
-    "hadith_count": 93
+    "hadith_start": 7045,
+    "hadith_end": 7129,
+    "hadith_count": 85,
+    "hadith_range": "7045-7129",
+    "hadiths_count": 85
   },
   {
     "book_number": 53,
     "title_ar": "كتاب الجنة وصفة نعيمها وأهلها",
     "title_ms": "Kitab Syurga dan Kenikmatannya",
     "title_en": "Book of Paradise and Its Delights",
-    "hadith_start": 6555,
-    "hadith_end": 6640,
-    "hadith_count": 86
+    "hadith_start": 7130,
+    "hadith_end": 7234,
+    "hadith_count": 105,
+    "hadith_range": "7130-7234",
+    "hadiths_count": 105
   },
   {
     "book_number": 54,
     "title_ar": "كتاب الفتن وأشراط الساعة",
     "title_ms": "Kitab Fitnah Akhir Zaman dan Tanda Kiamat",
     "title_en": "Book of Tribulations and Signs of the Hour",
-    "hadith_start": 6641,
-    "hadith_end": 6776,
-    "hadith_count": 136
+    "hadith_start": 7235,
+    "hadith_end": 7416,
+    "hadith_count": 182,
+    "hadith_range": "7235-7416",
+    "hadiths_count": 182
+  },
+  {
+    "book_number": 55,
+    "title_ar": "كتاب الزهد والرقائق",
+    "title_ms": "Kitab Zuhud dan Kelembutan Hati",
+    "title_en": "Book of Zuhd and Softening of Hearts",
+    "hadith_range": "7417-7522",
+    "hadiths_count": 106,
+    "hadith_start": 7417,
+    "hadith_end": 7522,
+    "hadith_count": 106
+  },
+  {
+    "book_number": 56,
+    "title_ar": "كتاب التفسير",
+    "title_ms": "Kitab Tafsir Al-Quran",
+    "title_en": "Book of Quranic Exegesis (Tafsir)",
+    "hadith_range": "7523-7563",
+    "hadiths_count": 41,
+    "hadith_start": 7523,
+    "hadith_end": 7563,
+    "hadith_count": 41
   }
 ]

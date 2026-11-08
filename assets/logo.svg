@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="800" height="200">
+  <defs>
+    <linearGradient id="logoCardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0c2340" />
+      <stop offset="50%" stop-color="#081728" />
+      <stop offset="100%" stop-color="#020912" />
+    </linearGradient>
+
+    <linearGradient id="goldHdr" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef3c7" />
+      <stop offset="40%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Amiri:wght@700&amp;family=Inter:wght@400;600;700;800&amp;display=swap');
+      .ar-hdr { font-family: 'Amiri', 'Traditional Arabic', serif; font-weight: 700; }
+      .latin-title { font-family: 'Inter', -apple-system, sans-serif; font-weight: 800; }
+      .latin-sub { font-family: 'Inter', -apple-system, sans-serif; font-weight: 600; }
+    </style>
+  </defs>
+
+  <!-- Container Box -->
+  <rect width="800" height="200" rx="28" fill="url(#logoCardBg)" />
+  <rect width="794" height="194" x="3" y="3" rx="25" fill="none" stroke="url(#goldHdr)" stroke-width="1.5" stroke-opacity="0.4" />
+
+  <!-- Left: Emblem Mark (160x160 at x=20, y=20) -->
+  <g transform="translate(20, 20)">
+    <svg width="160" height="160" viewBox="0 0 512 512">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <!-- Background Gradient (Royal Midnight Sapphire) -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0c2340" />
+      <stop offset="50%" stop-color="#081728" />
+      <stop offset="100%" stop-color="#030b14" />
+    </linearGradient>
+
+    <!-- Regal Gold Gradient -->
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef3c7" />
+      <stop offset="25%" stop-color="#fde68a" />
+      <stop offset="50%" stop-color="#f59e0b" />
+      <stop offset="75%" stop-color="#d97706" />
+      <stop offset="100%" stop-color="#92400e" />
+    </linearGradient>
+
+    <!-- Sapphire Glow Radial -->
+    <radialGradient id="sapphireAura" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#0284c7" stop-opacity="0.38" />
+      <stop offset="60%" stop-color="#0369a1" stop-opacity="0.14" />
+      <stop offset="100%" stop-color="#0b1e36" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Book Page Gradient -->
+    <linearGradient id="pageGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#fef9c3" />
+      <stop offset="48%" stop-color="#ffffff" />
+      <stop offset="52%" stop-color="#e2e8f0" />
+      <stop offset="100%" stop-color="#fef9c3" />
+    </linearGradient>
+
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Amiri:wght@700&amp;family=Inter:wght@600;700;800&amp;display=swap');
+      .ar-title { font-family: 'Amiri', 'Traditional Arabic', serif; font-weight: 700; }
+      .latin-brand { font-family: 'Inter', -apple-system, sans-serif; }
+    </style>
+  </defs>
+
+  <!-- Base Rounded Container (Squircle) -->
+  <rect width="512" height="512" rx="108" fill="url(#bgGrad)" />
+  <rect width="496" height="496" x="8" y="8" rx="100" fill="none" stroke="url(#goldGrad)" stroke-width="2.5" stroke-opacity="0.85" />
+  <rect width="480" height="480" x="16" y="16" rx="92" fill="none" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.4" />
+
+  <!-- Ambient Sapphire Aura -->
+  <circle cx="256" cy="240" r="190" fill="url(#sapphireAura)" />
+
+  <!-- Outer Islamic 8-Point Geometric Star (Rub el Hizb) Background -->
+  <g transform="translate(256, 240)" opacity="0.22" stroke="url(#goldGrad)" stroke-width="2" fill="none">
+    <rect x="-140" y="-140" width="280" height="280" rx="20" />
+    <rect x="-140" y="-140" width="280" height="280" rx="20" transform="rotate(45)" />
+    <circle r="152" stroke="#38bdf8" stroke-width="1.5" stroke-dasharray="6 6" />
+  </g>
+
+  <!-- Central Open Hadith Tome / Manuscript -->
+  <g id="HadithBook" transform="translate(256, 225)">
+    <!-- Book Drop Shadow -->
+    <ellipse cx="0" cy="98" rx="130" ry="16" fill="#000000" opacity="0.45" />
+
+    <!-- Open Book Cover (Leather Moroccan Sapphire) -->
+    <path d="M-132,78 Q-66,94 0,82 Q66,94 132,78 L138,-52 Q66,-36 0,-48 Q-66,-36 -138,-52 Z" 
+          fill="#0c4a6e" stroke="url(#goldGrad)" stroke-width="3" />
+
+    <!-- Book Inner Pages (Cream & White Parchment) -->
+    <path d="M-124,70 Q-62,84 0,74 Q62,84 124,70 L130,-44 Q62,-30 0,-40 Q-62,-30 -130,-44 Z" 
+          fill="url(#pageGrad)" stroke="#cbd5e1" stroke-width="1" />
+
+    <!-- Book Spine Center Fold & Shading -->
+    <path d="M-6,-40 Q0,-42 6,-40 L6,74 Q0,76 -6,74 Z" fill="#94a3b8" opacity="0.6" />
+    <line x1="0" y1="-41" x2="0" y2="75" stroke="#0284c7" stroke-width="2" />
+
+    <!-- Manuscript Text Ruling Lines (Gold Ink) -->
+    <!-- Left Page Lines -->
+    <line x1="-105" y1="-18" x2="-22" y2="-12" stroke="#d97706" stroke-width="2.5" stroke-linecap="round" opacity="0.85" />
+    <line x1="-110" y1="2" x2="-22" y2="8" stroke="#d97706" stroke-width="2.5" stroke-linecap="round" opacity="0.85" />
+    <line x1="-105" y1="22" x2="-22" y2="28" stroke="#d97706" stroke-width="2.5" stroke-linecap="round" opacity="0.85" />
+    <line x1="-95" y1="42" x2="-35" y2="48" stroke="#d97706" stroke-width="2" stroke-linecap="round" opacity="0.6" />
+
+    <!-- Right Page Lines -->
+    <line x1="22" y1="-12" x2="105" y2="-18" stroke="#d97706" stroke-width="2.5" stroke-linecap="round" opacity="0.85" />
+    <line x1="22" y1="8" x2="110" y2="2" stroke="#d97706" stroke-width="2.5" stroke-linecap="round" opacity="0.85" />
+    <line x1="22" y1="28" x2="105" y2="22" stroke="#d97706" stroke-width="2.5" stroke-linecap="round" opacity="0.85" />
+    <line x1="35" y1="48" x2="95" y2="42" stroke="#d97706" stroke-width="2" stroke-linecap="round" opacity="0.6" />
+
+    <!-- Silk Bookmark Ribbon (Draping Down - Gold) -->
+    <path d="M-5,-42 Q-3,10 8,88 L22,96 L16,84 Q4,10 5,-42 Z" fill="#d97706" stroke="#b45309" stroke-width="1" />
+    <polygon points="8,88 22,96 17,90 22,84" fill="#fbbf24" />
+  </g>
+
+  <!-- Arabic Calligraphy Inscription: "صحيح مسلم" -->
+  <text x="256" y="375" text-anchor="middle" class="ar-title" font-size="46" fill="url(#goldGrad)" letter-spacing="1">صَحِيحُ مُسْلِمٍ</text>
+
+  <!-- Subtitle Ribbon Badge: "MAKTABAH MAFTOOHAH" -->
+  <g transform="translate(256, 432)">
+    <rect x="-145" y="-18" width="290" height="34" rx="10" fill="#082f49" stroke="url(#goldGrad)" stroke-width="1.5" />
+    <circle cx="-120" cy="-1" r="3" fill="#fbbf24" />
+    <circle cx="120" cy="-1" r="3" fill="#fbbf24" />
+    <text x="0" y="5" text-anchor="middle" class="latin-brand" font-size="14.5" font-weight="700" fill="#38bdf8" letter-spacing="2.5">MAKTABAH MAFTOOHAH</text>
+  </g>
+</svg>
+    </svg>
+  </g>
+
+  <!-- Vertical Divider Line -->
+  <line x1="205" y1="35" x2="205" y2="165" stroke="rgba(255, 255, 255, 0.12)" stroke-width="1.5" />
+  <circle cx="205" cy="100" r="3.5" fill="#f59e0b" />
+
+  <!-- Right: Typography Lockup -->
+  <!-- Arabic Calligraphy Headline: "صحيح مسلم" -->
+  <text x="235" y="72" class="ar-hdr" font-size="40" fill="url(#goldHdr)" letter-spacing="1">صَحِيحُ مُسْلِمٍ</text>
+
+  <!-- Latin Main Title: "Sahih Muslim" -->
+  <text x="235" y="124" class="latin-title" font-size="44" fill="#ffffff">Sahih Muslim</text>
+
+  <!-- Bottom Brand Row / Pill -->
+  <g transform="translate(235, 144)">
+    <rect x="0" y="0" width="195" height="26" rx="6" fill="rgba(2, 132, 199, 0.18)" stroke="rgba(56, 189, 248, 0.4)" stroke-width="1" />
+    <text x="10" y="18" class="latin-sub" font-size="12.5" fill="#38bdf8" letter-spacing="1.5">MAKTABAH MAFTOOHAH</text>
+    <text x="210" y="18" class="latin-sub" font-size="13" fill="#94a3b8">• Koleksi Hadis Autentik Digital (57 Kitab, 7,563 Hadis)</text>
+  </g>
+</svg>

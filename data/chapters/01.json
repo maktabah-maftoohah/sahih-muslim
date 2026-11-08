@@ -1,34 +1,9 @@
 [
   {
     "chapter_number": 1,
-    "title_ar": "باب بَيَانِ الإِيمَانِ وَالإِسْلاَمِ وَالإِحْسَانِ وَوُجُوبِ الإِيمَانِ بِإِثْبَاتِ قَدَرِ اللَّهِ سُبْحَانَهُ وَتَعَالَى",
-    "title_ms": "Bab: Penjelasan tentang Iman, Islam, Ihsan, dan Kewajipan Beriman kepada Takdir Allah",
-    "title_en": "Chapter: Clarification of Iman, Islam, and Ihsan; and the Obligation of Believing in the Decree of Allah",
-    "hadith_start": 1,
-    "hadith_end": 2
-  },
-  {
-    "chapter_number": 2,
-    "title_ar": "باب بَيَانِ الإِيمَانِ الَّذِي يَدْخُلُ بِهِ الْجَنَّةَ",
-    "title_ms": "Bab: Penjelasan Iman yang Membawa ke Syurga",
-    "title_en": "Chapter: Clarification of Faith through which one enters Paradise",
-    "hadith_start": 3,
-    "hadith_end": 3
-  },
-  {
-    "chapter_number": 3,
-    "title_ar": "باب شُعَبِ الإِيمَانِ",
-    "title_ms": "Bab: Cabang-Cabang Iman",
-    "title_en": "Chapter: The Branches of Faith",
-    "hadith_start": 4,
-    "hadith_end": 4
-  },
-  {
-    "chapter_number": 4,
-    "title_ar": "باب بَيَانِ تَفَاضُلِ الإِسْلاَمِ وَأَيِّ أُمُورِهِ أَفْضَلُ",
-    "title_ms": "Bab: Keutamaan Islam dan Amalan yang Paling Utama",
-    "title_en": "Chapter: The Excellence of Islam and its Foremost Deeds",
-    "hadith_start": 5,
-    "hadith_end": 5
+    "title": "Kitab Iman",
+    "title_ar": "كتاب الإيمان",
+    "hadith_range": "93-533",
+    "hadiths_count": 439
   }
 ]

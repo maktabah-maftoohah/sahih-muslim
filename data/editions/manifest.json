@@ -1,0 +1,40 @@
+{
+  "collection": "sahih-muslim",
+  "title": "Sahih Muslim (صحيح مسلم)",
+  "total_hadiths": 7563,
+  "updated_at": "2026-11-08T13:50:30Z",
+  "editions": [
+    {
+      "id": "ara-muslim",
+      "name": "Arabic (Vocalized with Tashkeel)",
+      "language": "ar",
+      "description": "Standard vocalized Arabic text of Sahih Muslim with full tashkeel.",
+      "filename": "ara-muslim.json",
+      "hadith_count": 7563
+    },
+    {
+      "id": "ara-muslim1",
+      "name": "Arabic (Unvocalized Plain)",
+      "language": "ar-plain",
+      "description": "Normalized Arabic text without diacritics for fast fulltext search.",
+      "filename": "ara-muslim1.json",
+      "hadith_count": 7563
+    },
+    {
+      "id": "eng-muslim",
+      "name": "English (Abdul Hamid Siddiqui)",
+      "language": "en",
+      "description": "Complete translation of Sahih Muslim by Abdul Hamid Siddiqui.",
+      "filename": "eng-muslim.json",
+      "hadith_count": 7563
+    },
+    {
+      "id": "ind-muslim",
+      "name": "Nusantara / Indonesian (Terjemahan Lengkap)",
+      "language": "ms-id",
+      "description": "Complete Nusantara translation of Sahih Muslim hadiths.",
+      "filename": "ind-muslim.json",
+      "hadith_count": 7563
+    }
+  ]
+}
